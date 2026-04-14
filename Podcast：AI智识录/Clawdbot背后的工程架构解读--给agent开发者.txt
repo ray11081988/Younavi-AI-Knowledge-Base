@@ -1,0 +1,144 @@
+Clawdbot背后的工程架构解读--给agent开发者
+以下Clawdbot架构解读来自https://x.com/Hesamation/status/2017038553058857413
+TL;DR
+与其说它是一个 Web 应用，不如说它是一个纯粹的 Typescript CLI 应用程序。在架构设计上，它采用了基于泳道（lane-based）的命令队列来处理并发，而非复杂的异步逻辑。
+Clawdbot 的智能体运行机制非常灵活，系统提示词不是静态的，而是根据可用的工具、技能、记忆动态组装。在记忆系统方面，它混合使用了向量搜索和关键字匹配，且设计极简——没有特殊的记忆写入 API（Agent 直接写入 memory/*.md），也没有记忆合并或压缩机制，也没有设计什么遗忘曲线。
+在工具能力上，它配备了强大的文件系统工具和基于 Playwright 的浏览器工具（使用语义快照而非截图），旨在用户允许的范围内让 Agent 拥有尽可能多的自主权。
+<u>以下是全文翻译：</u>
+我深入研究了一下 Clawdbot（又名 Moltbot）的架构，看看它是如何处理 Agent 执行、工具使用、浏览器操作等任务的。对于 AI 工程师来说，这里面有很多值得学习的经验。
+了解 Clawd 的底层工作原理，能让我们更好地理解这个系统及其能力，最重要的是，明白它擅长什么，不擅长什么。
+起初我只是出于个人好奇，想知道 Clawd 是如何处理记忆的，以及它的可靠性如何。
+在这篇文章中，我将带大家从宏观层面了解 Clawd 的工作原理。
+从技术上讲，Clawd 到底是什么
+大家都知道 Clawd 是一个个人助手，你可以在本地运行，也可以通过模型 API 运行，像用手机一样方便地访问它。但它本质上到底是什么呢？
+核心在于，Clawdbot 是一个** Typescript CLI（命令行界面）应用程序**。
+它不是 Python 写的，不是 Next.js 项目，也不是一个 Web 应用。
+它是一个进程，
+在你的机器上运行，并暴露一个网关服务器来处理所有渠道连接（Telegram, WhatsApp, Slack 等）
+调用 LLM API（Anthropic, OpenAI, 本地模型等）
+在本地执行工具，并在你的电脑上执行你想要的任何操作。
+架构
+为了更简单地解释架构，这里有个例子，展示了从你给 Clawd 发消息到收到回复的整个过程。
+当你在聊天软件上向 Clawd 提问时，会发生以下情况：
+
+1. 渠道适配器 (Channel Adapter)
+渠道适配器接收你的消息并进行处理（标准化、提取附件）。不同的聊天软件和输入流都有各自专用的适配器。
+2. 网关服务器 (Gateway Server)
+网关服务器是任务/会话的协调者，它接收你的消息并将其传递给正确的会话。这是 Clawd 的心脏。它负责处理多个重叠的请求。为了串行化操作，Clawd 使用了基于泳道（lane-based）的命令队列。每个会话都有自己专用的泳道，而低风险的可并行任务（如定时任务）可以在并行泳道中运行。这与使用 async/await 的意大利面条式的代码形成了鲜明对比。过度并行化会损害可靠性，并带来一大堆调试噩梦。
+默认为串行，显式地选择并行
+如果你开发过 Agent，你在某种程度上可能已经意识到了这一点。这也是 Cognition 在<u>不要构建多智能体 (Don‘t Build Multi-Agents) </u>这篇博客文章（https://cognition.ai/blog/dont-build-multi-agents）中提到的见解。
+如果每个 Agent 只是简单地使用异步设置，你会得到一堆交错的垃圾数据。日志将变得不可读，而且如果它们共享状态，竞态条件（多线程争抢共享资源，因执行顺序不可控导致结果错误）将是你开发过程中必须时刻提防的恐惧。
+“泳道”是对队列的一种抽象，其中串行化是默认的架构设计，而不是事后的补救措施。作为开发者，你手动编写代码，而队列会为你处理竞态条件。
+思维模型从“我需要锁住什么？”转变为“什么可以安全地并行化？”
+3. Agent 运行器 (Agent Runner)
+这才是真正的 AI 介入的地方。它决定使用哪个模型，选择 API 密钥（如果某个密钥无效，它会将该配置标记为冷却状态并尝试下一个），如果主模型失败，还会回退到其他模型。
+Agent 运行器会根据可用的工具、技能、记忆动态组装系统提示词（System Prompt），然后添加会话历史（来自 .jsonl 文件）。
+接下来，这些内容会被传递给上下文窗口守卫（Context Window Guard），以确保有足够的上下文空间。如果上下文快满了，它要么压缩会话（总结上下文），要么优雅地失败。
+4. LLM API 调用
+LLM 调用本身会流式传输响应，并对不同的提供商进行了抽象封装。如果模型支持，它还可以请求扩展思考（Extended Thinking）。
+5. 智能体循环 (Agentic Loop)
+如果 LLM 返回工具调用响应，Clawd 会在本地执行该工具，并将结果添加到对话中。这个过程会一直重复，直到 LLM 返回最终文本或达到最大轮数（默认为 20 轮左右）。
+这也是奇迹发生的地方：
+计算机使用 (Computer Use)
+我稍后会详细讲到这一点。
+6. 响应路径 (Response Path)
+很标准。响应通过渠道返回给你。会话也通过基本的 jsonl 文件持久化，每一行都是一个包含用户消息、工具调用、结果、响应等的 JSON 对象。这就是 Clawd 记忆的方式（基于会话的记忆）。
+基本架构就是这样。
+现在让我们来看看一些更关键的组件。
+Clawd 如何记忆
+如果没有合适的记忆系统，AI 助手就跟金鱼没什么两样。Clawd 通过两个系统来处理这个问题：
+1.   如前所述的 JSONL 会话实录。
+2.   存储在 MEMORY[.]md 或 memory/ 文件夹中的 Markdown 格式记忆文件。
+在搜索方面，它混合使用了向量搜索和关键字匹配。这结合了两种方式的优点。
+因此，搜索“authentication bug”（认证漏洞）既能找到提到“auth issues”（认证问题）的文档（语义匹配），也能找到包含确切短语的文档（关键字匹配）。
+向量搜索使用的是 SQLite，关键字搜索使用的是 FTS5（也是一个 SQLite 扩展）。Embedding 提供商是可配置的。
+它还得益于智能同步（Smart Synching），当文件监视器检测到文件变化时就会触发。
+这些 Markdown 文件是由 Agent 自己使用标准的“写”文件工具生成的。没有特殊的记忆写入 API。Agent 只是简单地写入 memory/*.md。
+一旦新对话开始，一个钩子（hook）会抓取之前的对话，并用 Markdown 写一份总结。
+Clawd 的记忆系统出奇地简单，这与我们在<u>@CamelAIOrg </u>实现的工作流记忆非常相似。没有记忆合并，没有每月/每周的记忆压缩。
+这种简单性是优势还是陷阱取决于你的视角，但我总是倾向于可解释的简单性，而不是复杂的意大利面条式逻辑。
+记忆会永久保存，旧记忆的权重基本相同，所以我们可以说不存在遗忘曲线。
+Clawd 的利爪：它如何使用你的电脑
+这是 Clawd 的护城河之一：你给它一台电脑，让它使用。那么它是如何使用电脑的呢？基本上和你想象的差不多。
+Clawd 给予 Agent 很大的计算机访问权限，风险自负。它使用一个 exec 工具来运行 Shell 命令，运行环境包括：
+•   沙箱（Sandbox）：默认选项，命令在 Docker 容器中运行
+•   直接在宿主机上
+•   在远程设备上
+除此之外，Clawd 还有文件系统工具（读、写、编辑），
+**浏览器工具，基于 Playwright **并带有语义快照，
+以及用于后台长期命令、终止进程等的进程管理（Process Tool）。
+安全性（或者说完全没有安全性？）
+与 Claude Code 类似，它有一个白名单，用于列出用户批准的命令（允许一次、总是允许、拒绝向用户提示）。
+// ~/.clawdbot/exec-approvals.json 
+{ 
+  "agents": { 
+    "main": { 
+      "allowlist": [ 
+        { "pattern": "/usr/bin/npm", "lastUsedAt": 1706644800 }, 
+        { "pattern": "/opt/homebrew/bin/git", "lastUsedAt": 1706644900 } 
+      ] 
+    } 
+  } 
+} 
+ 
+安全命令（如 jq, grep, cut, sort, uniq, head, tail, tr, wc）已经预先批准了。
+危险的 Shell 构造默认是被阻止的。
+这些在执行前会被拒绝： 
+npm install $(cat /etc/passwd)     # 命令替换 
+cat file > /etc/hosts              # 重定向 
+rm -rf / || echo "failed"          # 使用 || 链接 
+(sudo rm -rf /)                    # 子 Shell 
+ 
+其安全机制与 Claude Code 非常相似。
+其理念是在用户允许的范围内拥有尽可能多的自主权。
+浏览器：语义快照
+浏览器工具主要不使用截图，而是使用语义快照，这是页面可访问性树（ARIA）的基于文本的表示。
+所以 Agent 看到的会是这样：
+•   button "Sign In" [ref=1] 
+•   textbox "Email" [ref=2] 
+•   textbox "Password" [ref=3] 
+•   link "Forgot password?" [ref=4] 
+•   heading "Welcome back" 
+•   list 
+  - listitem "Dashboard" 
+  - listitem "Settings" 
+ 
+这带来了四个显著的优势。你可能已经猜到了，浏览网站的行为并不一定是一项视觉任务。一张截图可能有 5 MB 大小，而一个语义快照不到 50 KB，Token 成本也只是图像的一小部分。
+好了，既然我们已经涵盖了主要组件，这里还有一些值得了解的有趣细节：
+动态系统提示词 (Dynamic System Prompt)
+与其他大多数框架不同，这里的系统提示词不是静态的。它是根据技能、记忆召回、用户身份、时区等信息动态构建的。基础系统提示词如下：
+"You are a personal assistant running inside Moltbot. 
+ 
+Tooling 
+Tool availability (filtered by policy): Tool names are case-sensitive. Call tools exactly as listed. 
+•   read: Read file contents 
+•   exec: Run shell commands 
+•   browser: Control web browser 
+[... only tools actually available to this agent] 
+ 
+Tool Call Style 
+Default: do not narrate routine, low-risk tool calls (just call the tool). Narrate only when it helps: multi-step work, complex problems, sensitive actions. 
+ 
+Moltbot CLI Quick Reference 
+[Gateway commands reference] 
+ 
+Workspace 
+Your working directory is: /path/to/workspace Treat this directory as the single global workspace... 
+ 
+Runtime 
+Runtime: agent=main | host=macbook | os=darwin (arm64) | model=claude-sonnet-4-20250514 | channel=telegram | thinking=off Reasoning: off (hidden unless on/stream) 
+ 
+子智能体 / 智能体派生 (Sub-agents / Agent Spawning)
+Agent 可以生成子 Agent（但子 Agent 不能再生子 Agent）。子 Agent 会获得一个独立的会话，父子之间的通信通过 session_send 进行，子 Agent 的结果会流回父 Agent。父 Agent 可以轮询子会话来检查进度。
+当接近上下文限制时，Agent 会将事实保存到记忆中。历史记录被分成块 (chunks)，LLM 会对这些块进行总结，最后将它们组合成一个连贯的摘要来替换旧消息。
+总结 (Wrap Up)
+Clawdbot 的流行是有原因的。它易于使用且行之有效。然而，这项技术并非革命性，它的热度并非来自不可思议的新技术，但这绝不是要贬低它的价值。这里有一些有趣的技术值得学习。
+我注意到其中的许多方法与 <u>@CamelAIOrg</u> 框架（也是开源的）以及构建在其之上的 <u>@Eigent_AI</u> Agent 非常相似。
+这就是说，在 Agent 领域，许多方法其实都大同小异，尽管可能在细节上略有不同。
+PLAINTEXT
+
+PLAINTEXT
+
+PLAINTEXT
+
+PLAINTEXT

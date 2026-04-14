@@ -1,0 +1,3219 @@
+00:08 Yeah
+
+00:11 嗨大家好呃欢迎收看硅基立场的视频播客啊这个好像是硅基立场第一次四个人同时的在一起做一期这个视频播客哦非常荣幸我我我们特别荣幸因为我觉得这一期可能也是平均年龄最低的一期视频播客然后谢谢三位然后然后
+
+00:34 我我前不久我粗略的统计一下我我录的人因为我们一开始我们说我们这个有点像browse talk结果一一成为我的browse他有一个特别的先天的一个叫I raise the bar of
+
+00:49 I reached the box
+
+00:50 就是说就你发现就这些人就就九零年之前生的
+
+00:54 是九零
+
+00:54 年之后生的人都少呃当然也有一些哈就是我觉得我们这期真的呃是是一个比较我从来不讨好年轻人我也不讨好詹自己但是呃现在就是詹自己在去创业所以说我们我们这次我们还是在旧金山然后我们在我们今天的一位嘉宾的Office
+
+01:18 对然后我们今天其实有两位嘉宾然后其实都是最近的这个最近一届yc新一个batch的这个alumni已经
+
+01:27 不是最新了已经不叫最近比
+
+01:29 较刚做
+
+01:30 完是吧
+
+01:31 今天今天刚有那个最新的一届就刚做完demo day的那一届对吧这个应该是
+
+01:37 是是W26还是S26应
+
+01:39 该我们是S25就
+
+01:40 我们其实
+
+01:41 有点有点老
+
+01:42 了有点老了你你是
+
+01:43 我们是W26那
+
+01:45 你们是W26但其实都是最近这个比较近的这两件
+
+01:48 对
+
+01:48 对对所以我觉得哎我们我们是请了两个准确的是yc founder然后来去聊现在yc founder现在都很年轻
+
+01:57 所以我们这一期其实还有一位还有一位是我们硅星人和詹娜zamling的同事Rachel我们在硅谷的同事Rachel对然后Hello Hello对因为我我我是赚我我先先闲聊几句哈我是赚Rachel来给我壮胆因为这个就是
+
+02:15 你们年龄比较接近我怕我聊劈了然后他能帮我来去挽救一下然后我觉得这个还是挺重要
+
+02:20 的我觉得就不看年龄看spicy程度是不是啊那看spicy程度
+
+02:25 那那那我那我非常spicy对对对I have to say我这个小红书看到别人说说哎骆一航录播客特别的spicy我说喜欢这个词但我觉得我们是spicy but also juicy
+
+02:36 嗯
+
+02:36 惊喜有干
+
+02:37 货对有干货我这个是我们要的一种感觉但尽管我们前面说的都不是干货对对所以我觉得啊我们先请二位介绍一下自己好不好东道主先来
+
+02:47 好的大家好我叫Kathy然后我是deadly slas的CEO和Co founder然后我们主要是帮你轻松的搭建部署然后呢变
+
+02:56 Send the agent so you can you kind out the open source SDK have installed dataless labs
+
+03:01 OK dataless labs alright
+
+03:03 that's how it was
+
+03:04 龙呃我是曾经叫做instant Fox的Co founder和CTO然后我说曾经
+
+03:11 I can't say healthcare
+
+03:14 agent
+
+03:16 agent
+
+03:18 healthcare agent
+
+03:19 这个也确实是大家可能比较需要的一个东西对哎所以你说你看你马上你就讲了说你pivot嗯然后你跟我讲讲就是现在one C的公司嗯所以现在内部现在基本批的情况是什么样子基本在这个batch这个几个月的期间那个boot camp期间嗯呃大家批的是一个比较常见的事吗
+
+03:40 对批的很常见的就是数据上说
+
+03:43 平均两三次
+
+03:44 对5%六十的公司都会匹配然后平均两三次嗯
+
+03:48 然后你匹配了一次
+
+03:50 对我们才匹配了一次所以还这是第一次嗯对这是第一次对为啥
+
+03:55 看house
+
+03:56 care
+
+03:56 house care是因为我们当时就匹配的时候嘛然后就想了一下就是各个角度都想了一下cofounder当时掺和了半天呃那段时间还还挺还挺令人兴奋的就想idea的时候之前做ASRE就我们之前是做ASRE的我长话短说吧就是因为
+
+04:13 啊我之前工作是做SRE的所以这个idea非常natural在批文的时候想第二个idea的时候呢就比较的又exciting又struggling了就我们其实看了很多的方向比如说当时看了像web three啊crypto啊嗯然后也想了AI政策啊最后想的是说还是想把AI政策放到一个短期能落地的项目那其实呃传统行业就是一个很大的方向包括医疗保险然后logistic物流啊包括房地产
+
+04:43 然后最后想了想又多做做做点research嘛觉得healthcare是一个不错
+
+04:48 的出发点所以你之前对healthcare这个行业熟悉一窍不通一窍
+
+04:52 一窍不通啥都不懂真的
+
+04:53 是是吧对对对那你胆其实挺大的因为其实我见过一些做vertical agent因为这边其实在硅谷的这个agent基本上跟SaaS共享一套底层是底层叙事就这些公司的话其实他们其实很大程度上他们做某一个行业是因为他们过去在这个行业里边有一些嗯
+
+05:13 认知积累甚至数据对你没有你也敢做
+
+05:16 对对这个其实是最重要的就是你对这个行业真的有了解或者有人脉或者有数据吗对
+
+05:23 那我觉得在yc很常见啊就我觉得yc现在最流行就是找一些college dropout然后去target legacy行业对但是就就是我们这边这个ping point是
+
+05:33 Personal there's not all college dropout how much teaching who's there in common scientist so I don't hire a lot yeah but
+
+05:40 一辈人然后就是其实自己根本没有PhD但是我觉得只要你有一个edge就compare的edge的话就完全可以去target legacy就
+
+05:47 是用这个edge来去撬动那些有经验的业界的那些人但
+
+05:51 是最后他们是开始真的sell因为大部分都是vertical是B to B嘛还有一个更老的三十岁的sales对
+
+05:57 对对是这种感觉对我看这边现在有很多公司知道他是做这个对他一般的这个sales gap可能还会给个比较高的title比如说CEO他给个president
+
+06:06 然后比如然后比如像我们中国这个华人或者Asian的团队可能比如会找一个老白男然后去做这件事情我觉得这特别特别常见对但是我我觉得就是说对你有这个competitive edge然后你去做这个事儿这也
+
+06:20 是可以的对我们根本就不怕说就肯定是呃这事儿要学嘛要去积攒人脉但我们不怕这个因为很多抓炮他们也没有类似
+
+06:27 的东西对那对那起跑线差不多
+
+06:31 哪个partner去你就是你这次批的是也是应该是有外星的partner去蛊惑你去做这件事我建议你去做这件事
+
+06:38 对吧呃咱们就说建议吧OK对我们是前前后后可能呃想了两三周吧嗯嗯就是其实呃这个决定到最后就很简单了就是我们做ASRE
+
+06:52 呃我再长话短说一下最后最后决定片尾的是因为就是竞争太激烈
+
+06:57 太多人做
+
+06:58 对现在startup很多然后包括每个公司自己也在做因为这个idea它本身很natural嘛那除了AI用在coding之上什么SRE就是一
+
+07:06 个这一届有二十个做类似uncle agent的
+
+07:09 就反正现在的几十家
+
+07:10 二十个不新鲜这一届这个事对
+
+07:13 当然在在哪都都挺competitive的但就是在这个竞争环境之下
+
+07:19 我们还
+
+07:20 有陆陆续续的有
+
+07:21 人跟我们聊但发现从metric如果我们比较理智的看从metric上面的growth实在是太慢了那这个时候是一个很强的signal所以我们应该马上换一点去找一个更更烂high一点
+
+07:30 的对你
+
+07:31 们还有
+
+07:31 She can't be to be ma
+
+07:34 也不算也不算B我们是想现在想要找一些小一点的clinic帮他们做跟insurance打交道的一些事情
+
+07:42 等于帮clinic跟insurance的这个
+
+07:45 这样子落地周期会
+
+07:47 短对对比起大hospital也太太太慢
+
+07:50 了了解哎所以所以你批评的这个决定是多久之前做出来的
+
+07:57 这个我想想看三四周前吧具体
+
+08:00 具体哪一天
+
+08:01 不记得是一个周二demo队你们是拿不出来demo的
+
+08:05 对对对我们这这这几周都在还在学习呢还在找人聊呢
+
+08:09 如果错过了demo队对于你来说意味着什么
+
+08:12 呢呃我觉得其实没有意味着特别多的事情
+
+08:16 呃因为demo day本质上是融钱嘛对然后对现在我们做AI的其实大家runway都是足够的也
+
+08:23 嗯
+
+08:23 不需要再招钱就是写代码因为我和我的Co founder也都是technical对我们俩每个人在用上code写什么产品都能写的出来所以钱的话是只要说实话作为一个business只要能实现positive的cash flow我们甚至是
+
+08:39 对吧都没有必要去找去去融资的嗯
+
+08:42 我觉得
+
+08:42 我可以稍微就是解释一下就是yc是有一个概念叫defer demo day的就你可以延迟demo对就是比如说其实蛮
+
+08:49 多下一个back是怎么
+
+08:51 样嗯可以是下个
+
+08:53 Defer sense the up to three times
+
+08:58 去融钱嘛所以你其实下一个bus再融也OK有些人甚至融a轮嗯就
+
+09:02 是就可
+
+09:03 能有些人就
+
+09:03 是C已经融完了然后
+
+09:05 用demo day去融a轮也比较常见最近
+
+09:08 所以我觉得其实就更多是个
+
+09:10 嗯timeline的事情
+
+09:11 对对那这个也是一个那这个Cathy你那边呢就是说其实你是
+
+09:18 我我们是没有defer
+
+09:19 你们是没有defer的对
+
+09:21 其实我们故事还蛮有意思的就我们就yc是这样子就是你第一天去yc他们就会跟你
+
+09:26 Launch often launch soon devices should put in the launch
+
+09:29 因为你不lodge的话你的用用户就不知道你存在那不知道你存在就不会用你所以你要不停的去跟世界去闹说hey我做了一个很酷的东西来看
+
+09:38 That being said when S251 of the latest companies to launch so we launched the free one
+
+09:43 到什么程度呢就是我开始的第一天是我们large的第一天什
+
+09:46 么意思呢
+
+09:47 其实我
+
+09:47 们其
+
+09:48 他程度是没有很多对
+
+09:49 对因为你没有能够的第一天就是demo day
+
+09:53 不我那时第一天是我就是开始investor call的开始
+
+09:56 investor call的第一天哦那你就是没有没有一个track rapper可以拿给他们去看
+
+10:00 是就我们的fundraising周期的关系一般是demo day的前一两周起关系会给你一个日期说从今天起你可以开始和investor聊天但是之前不建议你去和任何investor聊天
+
+10:11 You should be building your product why are you optimizing for something else risky
+
+10:19 是因为我们对自己的product很自信所以我觉得我们是有非常强大的技术壁垒并且就是我很相信就是我只要给别人demo然后我讲清楚为什么我们这个product的技术很厉害的话对就是把story讲好其实Foundation就够了就我个人对Foundation有很多见解自己也会去写很多就是开源的知识然后我的第一个靠就是当时我的demo甚至不是product environment我是
+
+10:41 They have an environment rather OK that's my first call gave Me 2 million so it was really good what's the whole role what you tell you about 1
+
+10:48 don't let you tell you about
+
+10:49 1
+
+10:49 对
+
+10:50 然后
+
+10:51 嗯对一到两周
+
+10:52 的时间
+
+10:53 对的然后我现在自己也会做一些天使投资并且就是this is interesting但是W twenty six
+
+11:03 Fundraising
+
+11:05 fundraising
+
+11:06 所
+
+11:06 以这个advice你得是具体的advice还是你把你的之前写的那个open source的这个呃放racing的这个知识库你扔给他们
+
+11:13 啊是这样就我首先写了第一篇因为就是OK首先有很多人来找我说嘿你融了一个double DJ然后你怎么做到了然后我讲讲我说太累了我就干脆就是开源吧所以我就写了第一篇blog然后就更多人来找我然后当时我看着我这thirty call我说我这个喉咙都要就喊破了我干脆就把我所有的知识都开源但是很多时候放racing就是讲故事必须得是Taylor to personal
+
+11:36 Story sorry
+
+11:37 就我没有办法就是很的把就是公式直接给你套壳你
+
+11:41 可以做一个套壳放到GitHub上去就这是啊那所有人
+
+11:44 都容易千一百
+
+11:45 万也OK对
+
+11:46 吧
+
+11:46 对但是其实不是这个样子对
+
+11:48 就我很愿意去帮助别人那我最后还要考验你自己讲故事的能力写你有没有故事可讲就我觉得还蛮重要的那大部分人都有故事可讲是他不
+
+11:57 知道怎么去包装嗯OK所以
+
+11:59 啊你讲所以你做这个investor就是开始投一些公司是在这个事情之后还是之前或者
+
+12:05 嗯我之前也会投一些公司就我不止投yc的公司就ACCCB one呐而且我有时候也会去投一些就是我看好的华人朋友
+
+12:13 之类的就是
+
+12:14 嗯但我的check非常小因为我主要还是个founder对但我觉得更多是就是如果我相信你去five for的未来和我的未来是一致的那么我希望我们一起去达成这个未来对就携手相伴
+
+12:26 携手相伴然后就是
+
+12:28 check大小其实无所谓它是一个commit对它是一
+
+12:31 个commitment small check the helpful Angel
+
+12:33 对对这个是这个是有道理的所以你们刚才我们讲的storytelling就是你说其实很多人都有故事可讲但是他这个
+
+12:41 It's challenge to to find the angle
+
+12:44 这个这个事儿的话其实这个是不是现在yc每一个每一届每一个boot camp其实要教大家的非常重要的一件事情就是storytelling
+
+12:54 嗯good
+
+12:54 question就比如说你觉得yc就
+
+12:56 Tell any door shop fundraising knowledge
+
+12:58 what does the storytelling have mention
+
+13:01 可能还没有
+
+13:02 没交
+
+13:03 对没有
+
+13:04 他其实没怎么他自己能做到
+
+13:05 的好就我觉得story Hello is a skill is hard to
+
+13:07 teach right
+
+13:08 我觉得是做的好的CEO可能最重要的skill OK是但是我觉得也能学到一些
+
+13:15 是的就我firmly believe就是每一个father都必须得是一个good story Hello就是首先你先拷问自己
+
+13:22 你如果自己都convince你怎么convince别人然后你去convince的投资人你的用户你的团队对吧就是你们钱这么少然后你们做这么就概率这么小这么难的事情你怎么去convince一堆就是
+
+13:32 十个人
+
+13:33 就我们现在十个人去跟着你一起追梦想就我觉得这还
+
+13:37 You have to speak loudly
+
+13:39 you have to be you have to speak confidently and you have to speak with almost blind conviction
+
+13:43 OK blind conviction so
+
+13:48 的一个事啊就是呃昨天这个batch就是我看
+
+13:53 Even when I see the partner since I work Gustav has somehow show Gustav has somehow shows it has every video or
+
+14:03 这个我我当然跟他聊的还是挺多的我看
+
+14:09 The real first agent batch so ardin harsan sure did the GPT batch
+
+14:13 就这个是agent batch嗯嗯就是就是就是can confirm嗯对can confirm是吧对对对是这个所谓的这个agent batch是基本做的都是agent吗还是怎么样因为我看到好像也有也有我清晰的发现了也有to consumer的项目那个叫什么那个叫paxki story嗯因为我是个我是个玩儿回合制游戏和历史游戏没够的人嗯我一看那个东西我一看那地图我马上我就燃起来了我说这东西我我可以玩儿嗯
+
+14:41 玩文明啊我说这个我我我可以用自然自然语言改写文明啊用自然语言改写三国全战啊对呃这这个就是我我我一直想用自然语言去改写宏大叙事的历史游戏啊
+
+14:53 世界
+
+14:53 主宰的
+
+14:53 梦想一下就是啊对对反正这就是无聊的中年男人都特别有那种情节对吧anyway对但是就是说我是听说他们现在已经按照一亿再去估了
+
+15:04 一亿啊
+
+15:05 三亿三亿再去估了然后他的这个AR好像现在说一年有
+
+15:10 100 million
+
+15:12 though
+
+15:12 did you totally have pack a story arc arc intelligence post training benchmark to do
+
+15:19 有很多就是我看了会觉得说哎为什么你会为什么你选择yc你干脆自己出去干就
+
+15:24 不就得了对为什么你还需
+
+15:26 要被辅
+
+15:27 导都不是辅导你为什么选择把你的equity还给
+
+15:30 出去一部分呢明明都
+
+15:31 已经做了对明明都已经做得很好你有必要吗就是我其实也很好奇为什么那确实这个batch我觉得就是agent含量很高然后其次就是valuation平均比之前高很多就可能是两年前的两倍
+
+15:43 对但这跟整个市场变热也是有
+
+15:45 关系对我觉得
+
+15:46 有关系但我觉得author要看就是就我个人感觉AI bubble还没有birth但它快了那birth之前就资金流动很多很容易去融钱且就是机会很多所以我觉得现在Y7为什么agent这么这么火是因为就是大家现在都很流行在推特上讲说make something agent
+
+16:04 People want make something make something make something make an agent people want make an agent that some vertical industry wants is what most of
+
+16:20 对
+
+16:21 我我其实挺好奇就是我们聊AI bubble的事情待会儿可以聊聊可以聊但我关于这次yc batch就是除了数字上确实表现很好我我自己也有一个呃观察就是说现在其实AI真的到了一种就second order effect的阶段就是很多人在做infra或者在做AI agent的security包括有家公司做的是token的compression
+
+16:45 他们的目的就是talking compress了之后那你的花钱就不对对对他们做的也很好所以我觉得他他其实是一个signal就是也是一个很自然的阶段里的一个他这个signal表示了说就是最开始可能是应用嘛用了完后然后大家开始呃最开始infra然后是应用对然后在他们俩都发展的过程中开始出现这些更加偏infra的就是帮你把AI怎么搭的更好所以
+
+17:11 包括你我觉得对对对
+
+17:14 其实
+
+17:15 其实我觉得Cathy在做的好像是ecosystem的一部分对对对是对对我
+
+17:19 其实最近刚刚出了一篇文章就是浓缩了一下我近八个月来就是放denalis观察到的所有agent方面的东西就我觉得从现在为止就今天为止到我们预想的就是很发那种A to a的未来我们其实还很遥远为什么因为ecosystem不够完善就是有基础的N法然后呢有基础的polo call然后也有基础的应用但是远远不够的security做的不好然后呢我觉得就是不够
+
+17:43 So maybe you got one language everybody speaks or one protocol that's
+
+17:48 或者能想象出来你究竟
+
+17:50 能答什
+
+17:50 么对对是
+
+17:51 我觉得这里边有一个特别意思你刚才也讲了infra其实我觉得就是
+
+17:55 When we talk about infra it was totally different compared with three years ago so the model the infra how to build up an entire infra for the genetic world
+
+18:11 它这两个完全不同它的要求是
+
+18:13 完全不一样的一个事情所以我觉得就是这一届其实我也注意到其实有很多是post training的英法的公司和agent英法的公司的这种复兴对这个事我觉得也是一个挺有
+
+18:24 意思的一个区别我觉得为什么说W twenty six the agent batch这不仅仅是
+
+18:28 Vertical B to be sad why is
+
+18:30 现在出很多
+
+18:31 这种东西
+
+18:31 那我觉得更多是就是整个post training的方面有很多做ecosystem的东西不管是就是在你公司出事情之前做就是offensive security
+
+18:44 Like evaluation reports that data set post train the agent will create post training environments
+
+18:56 去收集数据
+
+18:57 我帮你做更好的postry这其实都是跟agent有关的东西而这个batch非常的多
+
+19:02 其实这个就是回到我比较老了嘛我这个见过移动互联网然后起来的时候其实我说这个batch里边其实有很多yc之前也有很多alomini我说的IM10多年前的alomini其实也是
+
+19:14 Optimizely mixed panel optimizely the whole shun parse
+
+19:19 Pass后来是被Facebook收购了其实他们都是属于是就是这一类就是帮助当时的移动互联网去搭建呃build up APP的环境搭建分析统计和distribution的这种环境其实我觉得这个是我这个逻辑就是it's also the same但只不过现在就是说这个当agent进入到了就当AI进入到了应用阶段which进入到了agentic
+
+19:42 application的这样的一个阶段那这个阶段就会有新的infra去出现是
+
+19:45 是的是的新的infra出现后会有新的应用再出现
+
+19:48 会有新的这种应用在出现
+
+19:49 对
+
+19:50 对所以这个也是一个很有意思的一个
+
+19:53 事情就我最近跟每个人都会去强调说我个人认为叫hot take of another heart就是我觉得世界上99%可以被实现的应用agent以及就是tools都还没有被搭出来但是没有被搭出来是因为我们根本想象不到怎么去搭就是concrely就是
+
+20:09 I coin this term the imagination casm就是我觉得大部分人都跨越不了这个鸿沟包括我在内就是我也受到自己的想象力的限制就是我哪怕我再搭infra就是我们也需要自己去搭一些应用因为我不去搭应用我用户根本不知道怎么去用我的infra但同时我也不知道我去搭什么应用就可以去搭的应用
+
+20:27 太那就是
+
+20:28 可能性那么多但实际上能操作的东西这么少但是你又会想说就
+
+20:32 So that everybody can code 10 times faster if I call 10 open class coding for me that Even so there's a there's a
+
+20:42 少嗯且非常的就我觉得大家都在做流水线套壳就不管是国内还是国外
+
+20:48 就套壳是个非常就其实本质上我觉得to B的很多vertical的agency也是套壳嗯你同意吗
+
+20:54 哦完全同意
+
+20:55 啊就这个就就这套的就忒简单了就这个东西不是明明你用cloud code就不是你就这个东西cloud oppos 4.6直接套个壳你完全你能够用的完了你就可能稍微做一点agent optimization这东西它就能
+
+21:09 它就能用了
+
+21:09 对I can confirm就是这个y大部分都用cloud SDK对吧然后基本上就是一个然后所以这
+
+21:17 个公司其实这个大概有很多考核嗯对
+
+21:20 但是但是我觉得to B拼的不是技术
+
+21:22 对吧你拼的是人际关系拼的是各种各样其他东
+
+21:25 西对套壳本身不是坏事说白了每个人也就是一个脑子套然后两个手套个壳但是对吧具体的是你怎么有business value就能对
+
+21:34 对对
+
+21:35 当时变现就可
+
+21:36 以所以你现在新的是批文到了一个套壳方向吗说实
+
+21:39 话这个更套壳了这个比这
+
+21:40 个特别这个壳是吧对
+
+21:42 这个我们哎我真的多讲一点的话就是我们最开始做的技术含量其实是更高的现在做的事情技术含量就越来越来越低真的是套壳但这也是很
+
+21:52 重要的一个lesson就是说
+
+21:53 对但只要能解决痛点
+
+21:55 对作为一个business就是你实际上你能赚到钱这就是一个好的
+
+21:59 business但是我听下来就是你新的pivot这个方向你比如说要帮着client和这个保险公司之间去达成deal说白了就是这个东西是吧对这个事情好像不是特别容易在yc自己的N network里边去实现这个product distribution说白了就是就是你没法在
+
+22:15 每每个bat两百多然后这个几千个start中中间去实现这个annual recurring revenue的这个循环嗯
+
+22:22 对那这个是
+
+22:22 是不是一个挑战啊因为很多公司就自己消化的就是就他就自己解决
+
+22:27 了喂我觉得误区是yc公司在互相买对方的service但是不
+
+22:30 是这么回
+
+22:30 事是吗实际上不是OK就除非你做internal touring那么大家都可以用你
+
+22:35 做B to
+
+22:36 set其实不是所有人都能用你看着
+
+22:38 对对不然chesky去年跟我讲说哎呀我现在的yc全是to B他们就在互相做distribution
+
+22:44 我觉得要看你怎么to B
+
+22:45 OK但是我
+
+22:46 个人认为就我们之后可以聊一下就是我觉得在AI bubble破灭之后会存活下来的to B SAS公司
+
+22:52 你还怎么
+
+22:54 Protocol to expertise sequence distribution so market distribution so general OK what the name means general CRM platform yeah
+
+23:06 A Jason的这样子的东西我觉得bubble碰面的时候他一定会死掉其实我觉得大部分B two BS都会被死都会干掉对
+
+23:13 对而且我觉得他一方面是bubble肯定是要破
+
+23:17 嗯
+
+23:18 然后国内有个投资人就讲就是说说这个我我就既然讲到这个哎呀哎呀bubble多讲两句国内的投资人去讲说你看是cursor什么时候不行了然后什么时候这个bubble可能就要破了因为cursor太贵了cursor现在
+
+23:31 我说他这个现在大家都说他是这个Kimi 2.5的这个rapper嘛我觉得这话有点过了他还是做了自己很多工作的但这么说也不过分啊但是问题就是说那个这个壳本身这个rapper本身然后这个五百亿然后Kimi本身现在试图再去冲刺180亿就这个事儿已经有人去讲说这个cursor破了那就破了那我其实我再去觉得就是说SARS B to B SARS就长得像B to B SARS的AI agent其实就这个东西
+
+24:00 我觉得最容易去击破他们的其实我觉得还是asthropic
+
+24:03 我觉得我觉得要要看程度吧就为什么cursor嗯不行啊
+
+24:09 Oh model layer how much
+
+24:11 不还是anthropic mul
+
+24:12 那crocco
+
+24:12 肯定就更便宜人家就是
+
+24:16 Internal optimization
+
+24:20 SAS为什么会死掉呢更多是因为现在yc内部都在自己搭agent就每一个公司自己在内部搭agent我没必要去买你的SAS我何必就是付你一一个月几千刀的钱我几十刀我AWS就是搞一个container我自己就把
+
+24:34 agent做好了所以这就是你要去
+
+24:36 做的事情Cathy这就
+
+24:37 是我们做的东西我们希望降低门槛但是你去给agent
+
+24:40 提供工具和marketplace我们希望给全世界降低搭agent的门槛以最便宜最方便的方式所有人都可以自己去搭agent
+
+24:48 但是我同时也会认为就是bubble以后你需要有一个这样子的info layer为什么呢就是只有当你把全世界想象力都集中到一起你才可以做更高质量的东西只要动机和equal system都对了那么我们就可以使
+
+25:00 It's at 8:00 to
+
+25:01 8 trillity or 11 teacher
+
+25:03 Agent builder他们你可以讲到yc每个公司都自己去搭自己的agent那agent builder他们为什么他们不从GitHub和hugging face上去找原件找模组找找工具然后去build
+
+25:15 也也会找啊但
+
+25:16 那为什么你做的事情还是重要
+
+25:18 这样吧我问您一个问题你怎么去定义agent
+
+25:21 Good
+
+25:21 question OK good question won't you let your agent
+
+25:24 呃当a证出现的时候过去那个意义上的APP就不存在了嗯它是就是有一个东西呃三十年前它叫software嗯15年前它叫APP
+
+25:37 We currently named it agent
+
+25:42 一个比较初始的一个理解
+
+25:44 嗯把concrete什么是agent
+
+25:47 concrete什么是agent agent
+
+25:48 You
+
+25:52 go the
+
+25:52 software the automation of the automation of software writing do it actually you go the automation of blah blah blah automation of everything
+
+26:07 no that's about that's about right
+
+26:09 technical
+
+26:10 我觉得这个
+
+26:11 其实是一个很有趣的点就是不仅您答不出来大部分yc founder也答不
+
+26:15 出来你答得出
+
+26:16 来吗我那我肯定答得出来
+
+26:18 所以你是少拥有
+
+26:19 答案的人
+
+26:20 我拥有
+
+26:21 一个答案那我觉得世上没有正确答案但是我的答案是这样子就我个人认为就是世界上99.99%在搭agent的人根本不知道agent是啥但agent首先不是模型套壳它不是gimty rapper
+
+26:33 Was not a banana wrapper a bullshit a skill in school she go prompt layer hiya bullshit you go workflow
+
+26:39 为什么呢因为workflow是现行的它是每一步都hard code好你究竟要做什么那么workflow
+
+26:44 很
+
+26:44 重要因为你做有些东西你就是a到B
+
+26:49 That's a workflow then my agent is by default non linear and nondeterministic have that made full documents
+
+26:55 做出不一样的
+
+26:56 决定为什么因为模型是你的大
+
+26:57 脑对然后当你有大脑你就需要有身体那么工具就是你的身体所以我的定义是agent是至少一个模型加至少一个工具然后你给它intent它去实现output
+
+27:09 这毛这个模型是大脑那个工具想要它的手和脚
+
+27:11 对它至少长
+
+27:12 出一个来
+
+27:13 只要它有任何可以与世界接触的Surface area就够了
+
+27:17 OK
+
+27:17 所以模型本身不是agent所以chat gpt只是一个chatbot但如果chat gpt连了比如说搜索网络的功能它就是一个web search agent那么以这样子定义来看的话你会发现说就是agent does automate things但是你退一步来讲就是我觉得为什么定义这么重要呢因为定义衡量你的想象力天花板当你没有把agent定义好的时候你很难去想说到底什么样子的agent可以
+
+27:41 Place from on the B2B software no much you thought was in the B2B SAS
+
+27:45 事就
+
+27:45 事实上都是
+
+27:46 一个agent加一个UI layer然后你可能再做一些US然后你再做一些B two B的人际关系所以为什么说他说我在套可能是因为他确实就只是一个或者多个多个agent的multi agent
+
+27:58 The agents the cursor is technically just a coding agent but it's also a distributional layer for models
+
+28:07 没有办法就是
+
+28:09 达到model
+
+28:11 对的那么我觉得with这个定义的话你可以去看我们实际上降低的门槛是任何人都可以只要你可以define tent我们帮你非常轻松在五行代码内把模型和工具连起来那么you can do anything
+
+28:23 嗯
+
+28:24 哼
+
+28:24 Do anything simple and you can do anything complex it's up to you
+
+28:29 但我会想说就是我觉得确实回到第一项原则就是有点像react那个概念就是能看到你做事情就是一个agent的定义但是其实你让他真能deliver value的话其实更多的是你要呃怎么把这个environment加大跑然后也有两种情况第一种是还是有人跟你一起做对吧是一个copilot的形式第2种情况的话
+
+28:49 Agent general like autonomous so
+
+28:53 做的事情或者更autonist的去对的自我学习对所以对怎么把这个和人之间的workflow包括怎么把这个organization的workflow包括这它的运营环境给给
+
+29:05 我对我就觉得就是在当前是一个特别特别debatable的一个就是一个open to debate的这样的一个话题因为就是人们对于跟agent应该怎么去工作对其实人们的这种看法和想法是不一样的嗯就是我不确信就是我觉得我是
+
+29:22 在Minas刚出来的时候我是特别困惑于打开那个虚拟机打开了那个虚拟的这个环境他一边工作我一边去干预他的Minas就经常会讲说我们提供了一个就是你可以打断他的这样的一个环境我当时我是觉得就就我跟agent享有不同的语法然后我去打断他是一个非常嗯嗯
+
+29:42 It scared me a bit the whole time should I don't know the reason why the cloud Co work she want the cloud code the cloud
+
+29:50 出来之后嗯我开始习惯了这个过程就我觉得我打断他然后让这个东西在pipeline里面这么去排我觉得是一个是一个我可以去接受的一个事情嗯但是其实从更长期的这样的一个但是我觉得这个东西其实坦率的说它的感觉都是copilot那感觉都是copilot对就是我觉得从更长期的来去说我觉得agent它是一个真正的一个one percent automation automation就是说
+
+30:18 你可能你你你就是等一个结果回来嗯就是我觉得cloud code现在那个界面当然你可以跟他去聊就是那个其实理论上你是可以去喝咖啡的理论上你是可以去睡觉的然后你等着他去这个出结果当然这里边的话一个挑战就是这里边的话其实决策的点会变得很多就是你好像能够休息但是但但一旦他足够高效和足够不需要你之后他需要你的决策点会变多就是我觉得这个事儿就是我觉得open to debate的原因就是在于
+
+30:47 呃我们去搭建的这个环境到底现在我们搭建这个给给给agent更好的运转搭建一个环境它是基于嗯人和a agent必须要协作作为一个出发点还是ultimately其实我们是基于的是一个让机器自主的去get something accomplish对有这样的一个出发点
+
+31:08 我其实觉得这是一个OK我要我要拆解一下你刚刚讲的东西就我觉得这是一个很有趣的话题就是首先我之前其实做了很多人机交互相关的研究就I was a hci researcher那么很多讲一点就是OK包括说我最近去和很多agent startup聊就直接在搭agent或者搭用用agent SDK的startup去聊他们都会觉得说就现在human and loop support不够不够好就existing的SDK就目前大家会用用来就是搭agent的infra其实基本上都没有去
+
+31:38 考量到说在什么程度上我需要人来做什么样子的决策我应该拥有什么样子的guardrals我的access就是我的authentication应该是怎么去做分布的这些东西其实我们才是没有答案的因为没有答案所以很难去想象因为没有人搭出来很难去想象说它究竟应该长什
+
+31:54 么样
+
+31:55 但我个人认为就
+
+31:56 如果你如果你
+
+31:57 就是就我们一定会达到ATV但如果我们想要去以更安全更正
+
+32:02 Safety layer
+
+32:06 trust T-shirt
+
+32:09 Scope out access我来细讲一下就是回到我刚刚对于agent的定义那么其实madness和open cloud都只是一个很强大的powerful agent它拥有access有很多模型很多工具对
+
+32:21 但是当它拥有所有的Contacts的时候它不应该拥
+
+32:24 有所有的access
+
+32:25 当一个知道所有的人
+
+32:26 同时拥有所有的决策能力且可以执行的时候这
+
+32:29 个事儿就很可怕
+
+32:30 那明天世界就毁灭了
+
+32:32 明天我
+
+32:33 明天世界就毁灭了对
+
+32:35 对吧所以我个人认为就是一个A to a的未来一定不是一个非常强大的agent在执行所有的东西而是非常
+
+32:42 多小的agent
+
+32:43 Agent and multiple guardrails for scope access
+
+32:47 在帮你和帮其他人去进行决策那么在这种情况下如果garvill做的不好的话那么事业就会完蛋那么有些garvill它一定是ultimate因为人不可能每一步因为你要去喝咖啡你不可能每一步都点说yes yes yes就cursor就是之前tap很火我一直点tap所以我不想点tap对吧就很多人go agimo现在
+
+33:05 很多人用cursor用的很累的原因就是发现
+
+33:08 我没有变轻松了我好像
+
+33:09 对
+
+33:10 我十秒钟我make decision
+
+33:12 对而且我现在看这么多行代码那我干脆不看了我就直接automo对吧那更危险了世界上更危险了所以就会出现SRA就需要更好的就是coding啊environment support但是我依旧会觉得说就是一个正确的agent setup
+
+33:27 首先是有多个agent一个大的agent拥有很多contest它在把任务分布给更小的agent每一个agent它有access权限这个agent可以读你所有的email它就不可以删你的email要不然它就会出现像就open cloud把meta安全总监的邮箱直接删掉那么这个agent可以去删你的email就必须有一个test agent帮你去决定说这个email可不可以删那么这个test agent的contest一定要和前面这个agent是分开的要么它就会有bias它可能会send back它可能会做很多其他的东西那这种情况下的话人只需要
+
+33:56 Provide access provide intent
+
+33:59 外说这是我的condition在这种情况下你删这封email这种情况下你给我就是发一个slack message说嘿可不可以删这个email这种情况下你等待下一步指令然后你把这个general的context给到intent也给到以后你就可以去喝咖
+
+34:13 啡但这个general context对于很多人来说是个挑战就是你去做这样细的一个
+
+34:19 东西对
+
+34:19 是但我恰恰又觉得就是因为太general的人根本就不知道咋去就从哪开始呢对吧为什么之前madness刚出手就是有一个虚拟机然后呢就是好像就是一个门槛很高且很难去使用的东西就madness OK我们
+
+34:35 那我们下一步讲就是open club吧就open club就龙虾可以do anything那你依旧不知道该用龙虾去干啥就哪怕我把门槛降到很低了每个人都可以跑龙虾那那我去用龙虾去做什么
+
+34:46 呢那些人宣传的很多用龙虾干的兴奋的事儿啊嗯我说你们是不是都没有用过cloud code和cloud cloud work对如果你用过的话你就发现它其实它基本都能实现然后它能够实现它能够做到的cloud cloud work和cloud code做不到的部分恰恰是我们不想要的
+
+35:03 对我也觉得对吧就是但是我also会觉得说就是回到你刚刚点为什么你用manager的时候感觉有点生疏那你用就特别熟悉呢就感觉就是哎可以习惯这样的步骤嘛所以它把你的Surface area变小了你只需要去理解这么多东西其实你你很清晰的知道说我这个agent它就是做这样子的东西的对我就可以用来写码对吧然后它会给我因为我已经熟悉了它会给我这样子的就是cot那么我就知道我什么时候该去点一下check mark什么时候我就不太我就去喝咖啡了而且
+
+35:32 我用它去借光
+
+35:33 的电脑文件
+
+35:34 是的因为它比较的scope out所以你就可以去理解怎么去用它因为人的想象力有限所以你当你有一个非常强大的general agent像龙虾或者是madness的时候你根本不知道从哪里开始你也不知道我怎么去跟它去交互所以我依旧会觉得一个真正a two a的未来假设有人机交互的部分一定是就是Surface area非常小非常scope
+
+35:54 out所以说其实我觉得Kathy就是你觉得a two a的未来其实它首先的不是我的agents to你的agents而是我的agents
+
+36:03 To communicate some to collaborate
+
+36:06 首先是我与我的agent然后我这个agent和他其他的小agent
+
+36:10 然后同时我要有一个我要有一个meta agent然后他完了再有很多sub agents等于是这个样子是那这个meta agent他会不会太强大了
+
+36:20 只要他没有access
+
+36:21 他就不强大OK他就是一个hub
+
+36:24 是的就是你可以把它理解为说你有一个就是假设你有一个助理那你的就是假设我作为我的公司我有个cheap step那么我cheap step一定不可以去发射所有的指令且所有人都立马执行它的指令对吧它是有层层的就是在一个公司内部它是有层层的就是管理和权限的给予那
+
+36:41 么同
+
+36:41 时我觉得agent就有点像在管公司就你每
+
+36:44 个人都有拥有
+
+36:45 自己的cheap step那么cheap step就是跟不同的团队说嘿你做这个你做这个你的budget是这样子然后你这边的话我就是我给你权限你可以立马去
+
+36:54 做这样子的事情你可以去购买东西或者怎么怎么样但是在有些情况下你必须得回来跟CEO讲说嘿我需要申请
+
+37:01 这样一个
+
+37:02 权限
+
+37:02 对
+
+37:03 对所以所以其实它就是一个cheap呃就cheap staff这样的一个这个角色
+
+37:08 OK我觉得很难说就是真正HA的时代是不是每个人都有自己的cheap staff还是每个人都有通用的cheap staff但是一定是有多个agent其实
+
+37:16 你觉得特别有意思啊我觉得就在open class上我看到最有意思的一个尝尝试它也是挂到GitHub上去的
+
+37:23 三省六部制就他是没有把一个龙虾当成一个
+
+37:27 No look access to everything and then to take action on each stuff
+
+37:33 呃这样这样的一个东西他没有这么去做他是给分工了就是三省六部制就是中书省门下省尚书省啊尚书省是底下是管着六部是吧什么吏礼吏礼宫刑
+
+37:45 户
+
+37:46 呃记记不清了反正还差一个什么部啊忘了兵兵兵兵兵然后就是他就是这个样子其实我觉得他这个一个做法其实是有这样的一个雏形的
+
+37:57 我觉得他肯定是算法上就是最最最优解最最也可以选择因为就像就是这是一个很常见的structure比如说像人类社会也经常说这种政府的提高对吧就大家有这种层级的关系其实就是侧面可能验证了说就是这种higher或者specialization就是一种更高
+
+38:16 So the structure so it was the eight way for the short hierarchy
+
+38:20 就是嗯就是肯定是合理的
+
+38:23 嗯嗯那你怎么去build up你的这个就是接下来的这个和clinic和这个insurance相关的这样的一个agent
+
+38:31 架构我们肯定也会用
+
+38:32 也是multi agents这样也
+
+38:34 会肯定用到multi agent其实现在很多东西就本身都是multi agent比如说cloud code本身
+
+38:38 也是包
+
+38:39 括比如说一个大语言模型里面其实它里面是有很多的呃expertise model的就是比如说你在给chat gpt发一个文字后
+
+38:48 它好像会有之前说有36个就是小的expert model会其中有几个被击中它其实也是这么一种对现象呢就是这种呃表现吧
+
+38:58 对是MOE
+
+39:00 本质上也是一个他不是他只不过他不是agents然后他是multical models嗯嗯
+
+39:05 对
+
+39:06 对但我其实觉得就是更多是under the her他来做但是你只需要有一个就是人类只需要有一个人机交互的沟
+
+39:13 通界面就可以对就
+
+39:14 OK了
+
+39:15 嗯
+
+39:15 其实我有一个很好奇的点就是之前你答SRE所以你们应该就是比我更是专家的这个方面但是
+
+39:23 就是我其实现在有一个注意到现象是硅谷包括很多很多的YC32都是现在有就是有很多个coding agent就是24期一直在运行那你的
+
+39:32 AI software engineers that ventilator the whole not
+
+39:35 不停的给你写码不停的直接push PR就是写码的速度很快但是会上的扣非常差导致就是Twitter上每天都有人的DB在爆就每天都爆一个雷我把这个归归属于就这个现象归属于说他们的就是coding multi agent setup做的不好
+
+39:52 对
+
+39:53 就我我好奇你们公司内部的coding setup是什么样子
+
+39:56 啊首先就是我觉得这个很好的问题就是我当时也做过类似的尝试然后呃
+
+40:03 我一直以来还是没让我的agent就是24-7的
+
+40:06 跑也
+
+40:06 就是跑着跑着就质量就会越来越差我觉得第一部分是set up比如说我们想改代码的时候一般是看到get up ticket或者我们就是改完代码我们会去production里面看一看它好不好用对吧那像现在的话就是它没发就或者说你要它真的可以N to N的去进行这么一个feedback loop还是挺复杂的所以还现在还不如我我自己去KK呢第二的话我觉得就model本身的话啊确实technically像它的memory system呀就是做的还是
+
+40:33 不好他做着做着就是会有这种啊的现象然后就忘了一些重要的context但我还有一个想法就是我觉得他到了最后其实在这些大语言模型他们train自己的model的时候他们也是只是在根据他们设想的use case去train的比如说他们设想哦cloud code是要做coding use case他就会对coding做这个reinforcement learning那他们其实根本就我不猜测就是现在还没有到达就是对这种很长的二十杠
+
+41:02 期的这种workflow里面进行这种tuning所以他就没有学会这种behavior
+
+41:07 对my take is that我们现在的post training整个post training space的benchmark都做的太差了它没有办法模拟真实世界就在在vertical use case它没有办法模拟真实世界且大部分的data它都根本不存在就你没有data你怎么去做
+
+41:20 post training嗯
+
+41:21 所以我觉得是世界上需要有很多更好的就是benchmark eos
+
+41:26 然后我们之后应该五月份会出一些东西所
+
+41:28 以你们要出自己的一套benchmark
+
+41:30 就我们现在有有跟其他的AI lab以及一些yc公司去聊合作出开源的benchmark嗯然后去衡量就是given that一个agent就是至少一个模型或者多个模型和至少一个工具或多个工具然后呢多个agent其实就是多个模型多个工具的情况下每一个usecase下我都可以有不同的model和tool combination所以我其实无限可以去衡量的东西
+
+41:55 Cost latency performance success rate per task
+
+42:02 Benchmark衡量agent的benchmark要比衡量模型的benchmark它
+
+42:05 衡量的是世界
+
+42:06 对它的它的参照系要复杂的多对模型就cloud这个OPPO 4.6 Sona 4.6嗯这就是一个gpt 5.4就很简单就是一个一个模型一个版本但是agent的世界你怎么去benchmark
+
+42:21 你其实benchmark是真实的世界那你怎么去把真实世界缩影到一些task
+
+42:26 抽象到这个task里边去然后呢我这个是特别
+
+42:29 啊所以我还是挺期待看到这什么东西的但我现在我觉得这个事有点mission high我不能说Mission Impossible但是third of mission high我觉得是我觉
+
+42:37 得这个事情很容易就是intuitive的想到所以肯定大家都在尝试然后我觉得想象中的话比较简单的方法就是你通过真的是一个twenty 4-7的就是monitor人是怎么做一件事情的然后让a真的去学会啊这么一个事情但是但
+
+42:52 我觉得还有一个很有意思的点你刚刚讲到其实就是模型现在
+
+42:56 在在AI lab内部其实做模型训练他们也只有就是几个方向正在就是actually training那么他们training的方向其实也是基于已就是已经存在的benchmarks和就我个人觉得就是为什么benchmarking这么重要的是它等于在黑暗中给了你一个方向它它是像一个灯塔一样就大家都像灯塔开船那么我个人觉得就是如果你没有好的benchmark就不会有人去heel climb benchmark就不会有模型公司去冲击这样子的benchmark那么当更好的benchmark出
+
+43:26 的时候就是given打模型的baseline capability已经很好了之后模型就是不同的model只会越来越分化分化点也是可能use case per use case或者是personality或者是非常小的optimization但是对于某一个vertical来说很重要就我其实觉得之后的世界一定是这个样子所以模型也需要有很多的优化但是post training像agent也需要很多的优
+
+43:47 化我觉得我完全同意就是有人说其实医保是最重要的嗯就是它它不光是
+
+43:55 呃最重要的在就是一部分是你就是需要data去actually collect但另一部分它有点像pace一样就是你到底希望这个agent它是在什么样的
+
+44:02 It's that's a standard
+
+44:05 metric
+
+44:06 后的感觉那到到了最后其实是就是use case go和你到底care哪些东西所以我觉得还是要把这些东西定义好之后然后你把evil给做出来剩下的事情可能就是堆算力堆数据
+
+44:17 对对非
+
+44:18 常好这个事我们我我往回转一转啊considering我我觉得是不是有一部分受众已经被带到一个环境里面去了我们把话题往外我们我们这个具象一点好结合刚才讲的这个事情taste
+
+44:32 就是你刚你是刚才你是在这个怎么去做Eva这环境中你去讲了taste对吧我其实我这个事儿其实我特别想知道就是第一个就是什么是一个agent的taste嗯第二个的话就是因为taste的概念不是yc发明的这个是SQL那帮人发明的这是我第一次看到SQL的人造词儿
+
+44:50 然后哈
+
+44:50 SQL不造词儿的然后我当时我都这个愣了所以就是我不知道就是
+
+44:56 Woman why see
+
+44:57 或者我们每一个大神内部我们会不会讨论关于taste这个问题或者yc的这些公司们是怎么定义taste的
+
+45:05 我觉得yc不会讨论我
+
+45:08 还
+
+45:08 我还真没用过这个
+
+45:09 词是吧对就那我们个人内部会讲很多东西就是我们hire的时候一定要看他们的就OK hard to say但我觉得taste是一个你很难去学习的东西它有时候它就是一种很出的天生就
+
+45:20 有非常native的东
+
+45:21 西very native就有些人它就是没有taste因为它就是有当然你也可以去学习模型也在学习taste对吧包括
+
+45:28 Taste post training
+
+45:31 training
+
+45:32 training arena is one of them visual models game generation
+
+45:39 Ration model的话谁的taste更符合大众那么taste由谁来定义呢一定是由人类来定义的对吧而且taste是relative的在每一个use case每一个vertical情况下taste都不一样嗯所以对于模型来说我觉得就是要学习的东西太多了其实很难去collect一个这样子的data side but That being said我觉得为什么taste很重要且为什么死会啊就是为什么有需要有人去发明一个这样子的词呢again是因为如果你没有办法把一个
+
+46:07 概念具象到某一个与就是word上面的话那么人就没有办法去讨论它就没有办法去执行
+
+46:14 它这个事情很重要但是你又描述不出来我们就抽象无词
+
+46:18 对when you coin it a coin a term的时候现在我们可以具体去问说那我谁的模型更tasteful这是一个很重要的点那么对于我们来说我觉得taste一定是relative的所以怎么去衡量taste去回答你的问题它一定也是relative的之后必须有非常
+
+46:34 Benchmarking should you vertical use case too bad to hang out case you got
+
+46:39 就是我比我举个例子就是比如说设计UI很taste for model和设计衣服很taste for model和设计portal call就是比如说语言portal call和taste for model是完全不
+
+46:52 一样的
+
+46:52 developer
+
+46:53 Experience but you use our experience if we yeah
+
+46:57 make something agents want your agents your hotter taste
+
+47:00 那可能他长得就特别糙他就不需要任何的UI你啥都没有就就就就很好就跟我说我现在我在五磅这里边去我在那个界面那个终端里面去写稿我觉得那个taste很好啊进一个漆黑黑的界面然后这个字符一个个都长一边大并且闪烁我就比飞书那个taste好没有没有什么不尊敬飞书的意思啊反正说也说了我反正我就这样一个感觉对吧对然后我觉得那个test强调就很好但我不知道是不是我的taste变了然后另外你讲model taste或者一个agent
+
+47:30 产品的taste就是我给你举个例子是上午我跟朋友在争论就是这个我上就上午的时候我们也在这个附近哦就是我们也讨论就这个因为他们那个Co working space是一堆yc公司嗯然后他就他就说他说他说这个我们就一块儿我们一块儿讨论这个pexcistorica他说他这个产品完成度这么低怎么办
+
+47:52 你
+
+47:53 怎么那么高他说你看打开你说这个页面我还得切过去然后这个地图才出来嗯然后我说no
+
+48:00 我说我跟你讲就是谁谁谁第一个你用你用prompt玩游戏你想没有对话框那是不可能的嗯而且对话框有的时候它需要很大它需要在底下去滚字幕我说你我说你玩文明的时候就是我这个感感觉它是不完全一样的对第二个东西的话就是你玩文明就很老了嘛对然后第二个东西的话就是那个地图一出来那个它那个有很多历史游戏嘛
+
+48:25 就我我们也是想不开哈然后这个打开一个然后二战时候设设定为法国的游戏怎么玩就投钱了对吧然后对但是就是那个地图一打开一呈现的时候我就说我说这个这就是我要的游戏这游戏跟我看到这些游戏是感觉是一样这个taste是对的我我那个感觉不我是第一个我们要容忍它有对话框第二就是那个地图一浮现出来那个场景一浮现出来我觉得设计感上是对的
+
+48:50 我这个
+
+48:51 AA3
+
+48:52 I'm not sure it's the taste for the agent it's the taste of the agent it's the taste of the game itself I'm not short of that
+
+49:00 觉得就是你想他他他现在月户就他他每月的用户访问量是三个million嗯嗯
+
+49:07 A whole which means Indian I'm sure
+
+49:11 呃三三千六百个命令嗯三千什么3600个命令就是3600万他一年可能是36003600万的话如果每个人给他付我算了算就是他在AI R交每个人付三块钱就够了然后但每个人付三块钱肯定是大部分不付钱我这样人付三百
+
+49:29 三百
+
+49:30 对但我觉得这个agent就是够的不是不是这个taste它就是它就是就是
+
+49:35 他你也很难去抽象对因为现在来说现在用natural language玩游戏的人也不多
+
+49:40 对
+
+49:41 taste很难用文字去衡
+
+49:42 量很难去衡量对然后就是我们我们包括我们说有一些就大家都说公司有taste那你说它taste是什么
+
+49:51 You know vibe taste is totally
+
+49:53 我我觉得一个很有意思的点就是我觉得还是我觉得还是被想象为局数就我觉得不是agent的taste也不是就是software或者APP本身的taste首先taste一定是relative其实它一定是基于人类就是我觉得一个settrue就是世界上99%人可能没有taste
+
+50:11 那么99%人都没有taste的情况下这就是standard所以你的standard其实很低然后呢且比如说这个游戏它为什么对于你来说就是哎非常的tasteful非常的熟悉其实它就和你之前玩游戏很相似是不是就是但是
+
+50:24 跟我之前玩的很多很好的游戏的某个点很相似它其实很糙的它不可能像罗马全战那样然后
+
+50:31 等他把精髓抓到了把
+
+50:33 精髓给抓到一个地图出来的感觉我这跟玩文明是一样的对对我玩三国我不过也就这么玩三国那个画面像素也很糙
+
+50:40 的对我觉得很有意思对吧就是它其实是一个很糙的游戏但是只要你精髓抓到了那个味儿对了是不是就是你就觉得OK对那么我觉得它一定是基于一个standard而且这个standard其实是非常低的因为它其实是大众的standard但是你会就你真正去看的话真正能把taste往前或是就往前推的人他一定是一小部分人一小一一小部分人有一种就是
+
+51:01 独特的天生的native的taste且它一定是某一就是一定是founder它的creator且我觉得很有意思点就是packestor的taste一开始是founder自己决定的因为他给agent对吧然后agent再去执行东西但是之后他一定是大众决
+
+51:14 定因为他走
+
+51:15 他看的是数据而且你能够自
+
+51:17 己去往里边去创造游戏和玩别人游戏就你还可以所以
+
+51:21 实际上你也在contribute大家都在contribute这个taste后就变成大众的taste所以不管就不管他一开始是什么样子他肯定开头是好的那之后一定是看就是所有
+
+51:31 open source大家都
+
+51:32 在做的东西
+
+51:33 反正我反正我是宣布我从今天开始我要玩我要持续的每天都在玩游戏它会比玩那个那种单机游戏要省时间多了对对对我我我要每天都在玩对所以这个事我觉得也
+
+51:46 是深度用户
+
+51:47 对深度用户我会属于它的深度用户然后我一个月我一个月我给我给cloud这个充值两百呢我给他一个月充二十还是可以的对吧反正我就这种感觉但这个事我觉得刚才一个事还是挺让我觉得就是就是有意思就YC never
+
+52:01 是T
+
+52:02 Taste your case
+
+52:04 cannot be taught I just don't think
+
+52:06 我觉得像这个case真的你说这玩意能AB test出来吗我觉得基本上就是
+
+52:11 呃我觉得十个人AB test不出来十万个人可能可以
+
+52:15 从哪去找
+
+52:15 designer其实就是AB test taste对吧对但我觉得是首先数据体量要庞大其次就是taste不是一个可以用文字去描述的但恰恰模型是黑盒黑箱所以就没有问题对吧就是在black box里面然后你的位置对了其实你就可以把taste
+
+52:32 How social act it's totally vibes there's not early stage investing it's totally less well
+
+52:37 sugar tastes good stuff and
+
+52:39 Like万能很难定义但是对确实对外资来说大部分的公司是to B的to B的话就是taste就更
+
+52:46 重要就他特别不追求这件事
+
+52:48 情对对对能
+
+52:49 跑这个挺能
+
+52:50 跑就行
+
+52:50 只要有一小部分公司我觉得在推崇更好的taste比如说我觉得Apple是一款taste for的公司
+
+52:56 Recently that's interesting actually got
+
+52:59 Facebook apple recently too now the apple the taste is really easy to describe verbally
+
+53:06 really
+
+53:07 yeah
+
+53:08 就是你很难就你很容易去描述它的taste就是你很容易去描述它的taste是什
+
+53:12 么真的吗
+
+53:13 因为我我其实就我个人是一个深度苹果用户OK其实我去用它的时候很多时候更多是早些年了我近期我觉得我就是呃我
+
+53:22 Reserve my opinion
+
+53:24 那但是我就是早些年我经常会想说怎么会有产品经营能想到这么好的ux对没错对吧就是我用起来就是和安卓
+
+53:32 你看你已经describe出来了就是你你verble describe它的taste是什么意
+
+53:36 思它的taste就是一种我想象不出来用用起来很舒服的感觉是不是它那种感觉
+
+53:40 它能够被聚焦在ux你该用了ux对你看它可以被这个ux视觉
+
+53:47 是
+
+53:48 设
+
+53:48 计体验
+
+53:49 体验这个方面然后甚至到的软件你也是有这种taste对
+
+53:53 但是我觉得更让我感到惊讶点永远是他能先我一步猜到我想要啥他咋就知道说这个方向是对的方向说我就喜欢这样的
+
+54:02 啊对就让别人对
+
+54:03 所以我觉
+
+54:04 得苹果做的很好的点早些年来讲的话更多是他在
+
+54:08 user自己都不知道情况下predict或者说user就想要这样子的体验而且我帮你去完善这样的体验其实他们是非常cohism consistent一直在做一个这样子很好的体验就比如说AirDrop出现之前怎么会有人就想到AirDrop这个东西呢那它就是很方便啊那它俩解决了一
+
+54:24 个这个是跟ux其实没关系
+
+54:26 对那么我觉得yc教其实也是同样的概念我们退一步来讲case我教不了但我可以教你怎么去更好的就是用methodology去解决一个问题就yc最
+
+54:37 I mean I should make something people want make something agents want make something somebody wants and not to pay for it
+
+54:46 话它底层的逻辑更多是你不要从就是你不要从解决方案出发你要从痛点出发起yc教你的是质疑事件那你永远要去质疑说已有的解决方案它究竟是不是最好
+
+54:59 的解决方案
+
+55:00 接问一个痛点我能不能用更快更便宜更好的方式用体验更好的方式把解决方案给你做出
+
+55:06 来
+
+55:07 那我就做一个公司就I made something people want那么taste我交不了但我可以交meta
+
+55:13 He's all suspicion to the of the world
+
+55:18 挺有一套recipe的其实有点like安泰安泰tasting就是因为这样的话就是有点像一个的工厂一样的对
+
+55:28 我十年前去yc demo day的时候四十多个公司我已经看起来很累了嗯现在要在那个他们那个新的Office一天我看很多投资人到下午四点钟还没出来
+
+55:41 你150个公司流水
+
+55:43 线对就流水线这不是factory这是什么就这个事儿有点
+
+55:47 难
+
+55:48 Whether it's good or not
+
+55:50 what's your at the end of the day YC is a
+
+55:53 Model对吧就他他必须得盈利那么他他拼的是概率他拼的是我150家公司我一年四个batch对吧我一年就这么多家公司有至少有two percent这就是内部的数据two percent可以成为独角兽那么实际上我觉得比两two percent要低很多对但只要一年能出几个独角兽它就赚翻了
+
+56:12 对对因为我是听说因为现在PG不当不当president我是听说PG现在的个人理想嗯是投一个trillion未来会值一个trillion的公司
+
+56:23 因为你看Airbnb Dropbox然后其实都没达到这个数Airbnb可能现在连连连千亿都不到Dropbox其实上也就是对吧然后他是想投一个trillion的公司但是我我老觉得现在YC目前的这个model
+
+56:36 Far away from Paul Graham's current ambition
+
+56:43 don't
+
+56:45 你们批评yc你们就不不知道知道了
+
+56:48 一个知
+
+56:49 道我觉得我个人觉得这样子就是我其实deadless很会整活就我们就是主打一个除了技术很深以外我们整活也很很多我们十二月份其实跑一个自己的小型加速器你自己不办不知道有多难就我们办了3种我们把二十个已经在deadless上面搭的founder飞过来说嘿
+
+57:08 你已经在用我们搭建公司我们帮你做传播那么其中一家公司就已经被收购了还有几家进了YC但是我个人的感觉是你很难去spot talent
+
+57:18 You're going to see how the accelerator the founder of the HF 0 the founder of the how many thesis the exclusive can you make something people want HF 0 do you make me scared
+
+57:35 就
+
+57:35 作为一个founder你是否让我感到
+
+57:38 恐恐惧对
+
+57:39 Do you have a sense of inevitability the wise he looks for signs of greatness those are
+
+57:44 很vibe的东西就是纯纯感觉就是我怎么去spot hidden talent是一个我觉得嗯无解的问题对就yc没有解决那世界上没有任何人解决了这个问题这我同意对不过
+
+57:54 你刚才你说你现在自己也在Run一个settle program我们十二月
+
+57:57 份的时候Run我跟你
+
+57:59 讲你这个事就是在劝退我就是说因为我接下来也是要Run一个settle
+
+58:03 program看似很简单实际上巨难对对
+
+58:05 我知道这事我知道这这事有多难但是我还是想试试那这个事就很有意思啊就
+
+58:10 你说你帮他来去做传播这个思路特别的A10 6Z就是也也特别的YC就下面有没有一种现象我现在我好像看到也听说有种现象
+
+58:19 There are somehow there are I'm not seeing a lot of there's some of the incubators or accelerators or accelerators right over here in San Francisco are teaching founders how to pitch YC
+
+58:35 嗯辅导班
+
+58:36 辅导班哎对对对就是辅导班就是进yc辅导班然后yc新东方嗯就是嗯现在有这种东西就是
+
+58:45 不可否认我觉得是有
+
+58:47 肯定能猜到这个不知道就是
+
+58:50 No yeah yeah we did we have setup program how to to teach you how to yeah how to be a part of the YCS setup program
+
+59:04 一点是yc interview就是绝大部分情况下都是pattern recognition你符合他们熟悉的pattern你就进了
+
+59:11 对
+
+59:12 那这个pattern我很难去用文字形容但是pattern recognition对那第二点是为什么这么多人都想进yc实际上确实是一个更好的舞台所以你进了yc你的概率就是会提升就你你found rising就是更容易那么你第一轮融的好你接下来就就是走的更轻松对所以我我觉得情有可原
+
+59:28 情有可原但这个事儿那那那我们量化一下就是你们觉得就是呃进了yc
+
+59:35 融资嗯的难易度就是这个概率就量
+
+59:40 级的区别真的是数量级区别
+
+59:42 几何是指数级的区别吗还是一个普通的一个几倍量级的区别
+
+59:46 十二十倍
+
+59:47 十到二十倍的区别
+
+59:49 对
+
+59:49 嗯是从融资规模上来看还是从这个效率上来看
+
+59:53 就是从融
+
+59:54 资难度
+
+59:55 难
+
+59:55 度来看就我觉得规模很难说吧因为我觉得你融两三秒你也可以融一个很就是你
+
+60:00 也可以做的很好
+
+60:01 对那
+
+60:01 你你融16你也未必能走到A5对吧就是我觉得要看情况但是就是
+
+60:06 作为一个投
+
+60:08 资人且作为一个就帮助过很多不同的founder within和outside的yc去做found racing的一个就是角度来讲的话我觉得
+
+60:15 如果你没有
+
+60:16 走yc demo day的schedule就是founder它就是非常难就Maybe ten time harder除非你已经有很多traction你
+
+60:22 已经是一个
+
+60:23 非常hot的product了写你
+
+60:26 会套公式那么我的公式是engineering formal storytelling加humble bragging那大部分人是不懂这个公式的你真的很难去懂
+
+60:34 但你今天已经把公式在这儿open source出来了对吧
+
+60:37 啊可以啊就自己已经是open source的知识了但我
+
+60:40 觉得你会
+
+60:40 你会公式你
+
+60:41 不是可能还是不知道
+
+60:43 我之后推特上会会开源很多知识欢
+
+60:45 迎来
+
+60:46 但
+
+60:46 是我觉得更更重要的点在于就是进了yc以后不管你有没有traction就是不管你现在有没有就是数量级比别人做的更好
+
+60:56 只要你的storytelling做的够好那么其实你就可以融到一个很好的为什么因为bubble没有破现在资金流动很多那么also指就是yc并不是每一个融到种族的人都可以走到下一轮对他们可能把内部数据是往16%20%左右能能融下一轮那已经很高了呀就你没有你没有yc的话你可能第一轮都
+
+61:16 融不到对
+
+61:16 所以你会稀释很多且就是你的投资人未必是最适合你这个赛道的投资人
+
+61:22 这YC给你的是这个质的飞跃那么不仅仅YC可能其他的也有就我不会说你一定非要就一定要选YC但是我觉得更多还是就是有一个external
+
+61:32 Environment so reinforcing fundraising
+
+61:36 fundraising
+
+61:37 嗯那从从hiring的角度呢从hiring的角度他就会容易多少倍因为就老实说主流公司也没多少主流公司自己也没多少钱就是招人都是一样贵就是你可以跟大厂请人还是一样贵这但也会容容易好多是吧
+
+61:53 我们没有招过
+
+61:54 人没有
+
+61:56 Hope you see you
+
+61:58 我们团
+
+61:59 队现在十个人的话我
+
+62:00 觉得招人是更容易的那容易的点不在于是你的network变大了而更多说明就是你有quadability了就yc它更多像一个seal of approval就像FDA approval一样就是啊确保你确实是technical然后确保说你确实好像是onto something对吧因为没有人在总动的没有人找到pmf就基本上没有人所以
+
+62:18 就
+
+62:18 只能
+
+62:18 说确保说你好像比较legit所以我觉得yc更多像一个quadability那么这个quadability它究竟有多好我觉得现在越来越
+
+62:26 稀释了就是我觉得就
+
+62:27 是很难说
+
+62:28 说吧但
+
+62:28 是两百家肯定就
+
+62:30 但比如
+
+62:30 说最近一个很
+
+62:31 有趣的现象就是yc之前主要是做B to B SAS因为最近其
+
+62:35 实dpack越来越多有
+
+62:36 很多是直接和Pentagon合作
+
+62:38 的公司
+
+62:38 都要先走一套yc流程我先拿一个credit ability我再去和政府谈
+
+62:42 合作所以我觉得这是一个我之
+
+62:44 前没有想到过的现象但是
+
+62:46 现在很常见就它的credit ability可能在VC圈可能有的时候会稀释但它的这个背书效应可能渗入到了很多其他的领域
+
+62:53 对对
+
+62:54 对可
+
+62:54 以背书还是很很强的
+
+62:56 对背书还是很强的对
+
+62:57 而且我觉得这是一个只有YC才有的就是quality为什么呢因为YC
+
+63:02 Been around for so long it's been around for so long and so many batches
+
+63:09 我当时想过你想说111个interbate 21年我觉得还是很神奇的就觉得是
+
+63:14 是而且你就是世界上很多你现在每天都会使用的公司或者每周都会使用公司其实都是yc或者是yc的along就我觉得还蛮有意思的那么这个network只要你进了yc你就也
+
+63:26 等于拥有了
+
+63:27 对嗯所以我就突然在小红书上看到一个这个应该是一个yc申请者
+
+63:33 然后一个特别庸俗的比喻他说进了yc就好比yc就好比是创业的体制内体制内三个字啊
+
+63:40 嗯可以我觉得我觉得很
+
+63:42 恰当形
+
+63:43 容很好形
+
+63:44 容就是说白了就是体制内无外乎别的就是就就是可以往前走的更安全和有保障
+
+63:49 是
+
+63:50 是是但我觉得什么情况下你不适合去做yc或者你不需要yc呢就是假设你已经有traction了嗯就比如说我想我我这个bug很惊讶点在于很多人都已经做的很好很强了那你何必稀释你的six percent但那么好
+
+64:04 也也也也还是有人进来
+
+64:06 还是为了我觉得
+
+64:08 可能是吧还有
+
+64:09 对但是我觉得就假设你已经做的很好了或者就是你就是技术够硬气就是你已经有投资人的relationship在内了
+
+64:17 那么你没有
+
+64:18 必要去做这个吸湿器yc如果它的套壳让它的流水线不
+
+64:22 适合你就比如
+
+64:23 说你做的是某一种D你做的不是B to B set就比如说我其实yc嗯对于consumer嗯我觉得distribution做的没有那么好就比如说我们自己做consumer
+
+64:32 distribution
+
+64:33 都是自己学的且你的受众也不是yc内部的
+
+64:36 对因为你们的consumer不是SaaS那样的用户对
+
+64:40 有时候是set那我们因为是to P所以就是
+
+64:43 发到很广
+
+64:44 对对但是yc内部主要还是我B to B就是可以互相使用且可以一楼但是我个人觉得嗯有些情况下我会跟founder说尤其是repeat founder我会说你没必要再做yc了就你已经有track record你有traction且就是你你没有这个融钱的难度那么何必呢但是我觉得大部分情况下yc就是只有benefit
+
+65:07 除了你你可以你可以接受dilution的话只有benefit没有harm只有
+
+65:11 只有benefit没有harm这还是一个挺好的一个事儿那说起来就是就是一龙就是你觉得yc教得了pmf这件事情
+
+65:20 他没法告诉你pmf但是你可以有一套系统性的方法去自己找到尽量的找到pmf其实
+
+65:26 So the iterate how talk to people
+
+65:29 talk to people in to take the people to their what's the alarm actually to the share what's the partner
+
+65:34 users user could be why say alarm could be other other people
+
+65:38 但我觉得就是又回到有点像那个recipe的说法了就是确实我觉得
+
+65:43 他只给你recipe
+
+65:44 对有一套方法这一套方法论是
+
+65:47 那现在开源给大家recipe
+
+65:49 是啥现
+
+65:51 在就开源
+
+65:52 嗯我觉得就是还还是说白了就是pmf和快速试错
+
+65:56 嗯
+
+65:57 OK我觉得是这样子就是我来总结一下的话tell me my Brown就是不停的跟用户聊天yc说你每天都必须跟用户聊天就你在这个整个Bush你除了睡觉搭你的product和
+
+66:07 You don't like appreciate talking to users talk to enough users
+
+66:13 是我觉得yc有一个讲的很好的recipe套壳点就是有时候哪怕有很多人现在在用你也不代表你找着pmf了就很多时候这只是一个就是嗯我跟就是一个momentary的东西可能过几个月它就没有了就
+
+66:28 Only hype
+
+66:29 in the PM app
+
+66:30 why is he down much a hockey stick growth so it had the growth in your
+
+66:34 请你不停的涨你
+
+66:35 之后就没有没有
+
+66:36 落下来那么大部分公司其实这样子
+
+66:38 是
+
+66:39 嗯对那么yc讲是真正的pmf一定是不不仅有很多人用你他们很爱你他们会主动来给你feedback就哪怕你的你的公司超糙对吧那依旧有人愿意付
+
+66:48 二十万给
+
+66:49 他
+
+66:50 两百刀那么更重要的点是有人愿意付
+
+66:53 钱对就是
+
+66:54 you only make something
+
+66:55 People want people are willing to continue to pay for it
+
+66:59 自己的一个足够深的痛点他足够影响这个人的生活给他
+
+67:03 提提供足够多的价值的
+
+67:04 话他会愿意付钱所以我that's that's the recipe
+
+67:08 对除此
+
+67:08 以外也没啥了就真的没啥
+
+67:09 了嗯对
+
+67:11 这个还是很有意思那我们再说回来吧我觉得我们还是得再说说就是agents嗯本身然后就是这个事情就是我觉得刚才我们其实一直讨论一个事儿就是你不知道或者你没法想象agents
+
+67:28 长什么样子能做什么你也不知道你能够build出什么来就这个情况我觉得你们两个人面临的可能是两个不同的情况因为你是特别需要
+
+67:38 Agents the builder founder builder builder for themselves a lot builder founder it could be agent builder
+
+67:49 能够做任何他想做的事情嗯然后这是你的诉求但是你ask a agent builder or agent founder嗯其实你要提供的服务是需要特别清晰的脉络和解决嗯的的一个solution的就是你是一个这个样子的就是你所以你理解就是说就就我我觉得两个人应用和
+
+68:12 不一样基
+
+68:13 础设施对应用和基础设施是不一样的就是说就这个这个东西是不是现在的一个
+
+68:19 我我我我它也不是一个gap但它就是一个现状就是其实应用层法层提供了足够多的工具但应用层其实你会发现它用的可能就是就是那些
+
+68:31 是对在niche里面吧
+
+68:32 在niche里面对
+
+68:33 就我觉得面临的问题不一样吧就是我可以quot一下Sam auto有一个很经典的就是世界上只有两种公司一种公司是当Foundation model变强的时候你就挂了你就被replace第2种公司是S Foundation model
+
+68:46 Get stronger you also get
+
+68:47 stronger
+
+68:48 well not million people yeah
+
+68:50 你怎么
+
+68:51 更快的去落地就迅速找到PMF
+
+68:53 的同时
+
+68:54 哪怕Foundation model变强了那也没有关系你有自己的mode
+
+68:58 Not Matsui infra we only get stronger as foundation models get stronger so I want to say cursor as infra cursor as senior
+
+69:05 作为infra来说的话我们面临更多是我们怎么帮更多用我们的application layer的founder变得更强嗯所
+
+69:11 以我
+
+69:11 们提供的是基础设施的因为我们很horizontal就是我现在面临的最大的问题不是说我们的技术不不够好就是技术就是我们做的再难如果没有
+
+69:21 人用
+
+69:21 就是没有人用所以我们其实面临更大问题是distribution那么distribution它不是views它不是engagement它更多是我怎么去帮
+
+69:28 人打开他的想象力我帮他去realize说作为一个opc就作为一个agent founder你也可以去搭下一个独角兽其实我有一个非常深度的鼓励叫I firmly believe下一个独角兽它一定不是tech
+
+69:41 嗯它一定不是太行业的它一定是某一个random vertical就比如说我做tracking或者是我去做什么
+
+69:47 manufacturing嗯
+
+69:48 就是这种情况下当每一个人都可以去搭自己agent的时候那么opc它就不是梦想它一定就是现实
+
+69:54 对
+
+69:55 那么我我就是希望去帮助更多人去实现他们应用层
+
+69:58 的梦想
+
+69:59 对对所以我们俩其实是挺经典的两个例子吧就是我们想足够的深他们想足够的宽要足够宽的话就一定要是一个
+
+70:08 越越多越多越好的人能用的这个平台但其
+
+70:12 实你们是可能会成为一个opc的公司但作为一个infra公司还是没法成为opc的公司
+
+70:17 就是作为一个infra公司我们更可以去成全更多
+
+70:19 opc
+
+70:20 对对对作
+
+70:21 为应用公司大家也讲就是你其实想先提供一个应用外进去然后再慢慢的去build一个平台嘛就有点像比如说chat gpt或者微信差不多但对大大大方向是这样
+
+70:31 所以其实就是说对于两个不同的公司我这两个公司在yc里面它是同时出现的
+
+70:38 做infra的公司和做这个和做呃我
+
+70:41 觉得yc应用层多一些
+
+70:43 应用层多一点
+
+70:44 对去去前两年应用层更多但我觉得现在就是
+
+70:48 但是你看你infra怎么算嘛就是infra有帮别人去搭的SDK也有collect数据
+
+70:53 的也有
+
+70:53 做E bos和data对所以我觉得这些可能都不太能
+
+70:56 算都不太一样对都不算对都不算应用但其实你的go to market的方式是完全
+
+71:02 不一样的其实你们要有很多的像to C的公司那样去go to market
+
+71:05 对就其实我们现在就我们为什么在推特上比较火呢是因为我们的整个growth philosophy就是如果你搭的东西它很boring很unsuxy那么你的growth就一定要很sexy
+
+71:17 So what
+
+71:18 要做Twitter
+
+71:19 So not boring the tech company I think she can't definitely find it once so growth developer tool
+
+71:27 Super base carserver像其实都都很相似都很流水线就是我发一些命令然后呢我做一些community advance就是我有一个builder community但是我们个人认为就是时代在改变所以你也要创新就是首先就是能的人越来越多了所以实际上我们的潜在用户越来越多越来越广
+
+71:46 那么第二个用户群体可能慢慢就跟YouTube的creator一样多了
+
+71:50 是的没错就是anybody可be one但是我们要focus那么第二点就是嗯就是那么既然用户群体越来越多且时代在变大家expect的type of content也在改变就比如说大家的attention Stand越来越短那么我就是看不了一分钟的长视频了我在推特上我可能就只看前三秒那这种情况下你怎么去贴合时代是我们想的一个很重要的点而且我们其实做的更就是let's so就是one
+
+72:15 Who won the relationship building woman so I can wash there's a wide funnel distribution
+
+72:19 所以我们虽然是个to P的公司且我们希望我们的power用户还是就是像yc founder这样的人但我们也要把我们的funnel做广嗯这样子概率学上就有点像yc的business一样就会有那么几个人Maybe you right opc就是搭出下一个独角兽
+
+72:35 搭出下一个独
+
+72:36 角用的是我们的
+
+72:37 嗯对对是所以对于一龙对于你来说其实go to market这个工作就是一个非常酷的和特别不性感的一个工作
+
+72:45 我觉得沟通吗永远是很酷很我不知道可能你觉
+
+72:49 得还是真实的超开心哦那那
+
+72:52 很
+
+72:52 就是接触不同的人不一样的就他接触的每一个人是就to P嘛就是当这个每个人他是非常random的个体
+
+73:02 其实这个体验是很刺激的嗯
+
+73:04 但是
+
+73:05 大部分yc公司来说可能尤其是你这种还没法在yc的network里面自己去distribute的其实其实你做的是非常我昨天有个to C的创业的朋友我不点名了可能就是这个要说可能也有人知道他觉得他是他是一个在也也是在硅谷稍微的做to C产品的嗯他就complain他最近有很多这个大的机构嗯我不能说哪个行业的机构他说愿意然后用我们的data
+
+73:28 然后我们的layer啊让我们去帮他去做点东西嗯我就不想做这个事儿我说出去董事会把我给kick到要不然我就不做这个事儿但这个事儿是真来钱那这个事儿就就解决了这个revenue然后他是他们其实是一个to C的公司尚且是这个样子我觉得我们作为一个to B的公司就是我们去做的这些其实还是挺苦的就是你对你对你对你对这个事儿你目前怎么去想就是你没法
+
+73:53 Leverage the advantage of western network
+
+73:57 market is
+
+73:58 做ASRE我觉得确实都挺苦的当时当时是跟比如说一些it公司现在是跟这种医生聊嗯我这
+
+74:06 公司比医生还好一点吧好
+
+74:07 的我觉得更难哦really
+
+74:09 因为人家就是没有罗有体啊就是这么多
+
+74:12 选择哦对对他没有谁更便宜
+
+74:14 谁更好对对对
+
+74:15 而且我我确实觉得是我个人啊就是没没那么擅长沟通market所以这个事情对我本身就个人就不太擅长我觉得确实对也也是我学习到一课包括我觉得可能yc
+
+74:27 也有也是个这样的现象就是大部分人进来的时候可能会觉得把产品做到是第一位的但其实我现在越来越觉得go to market其实是最主要的超重
+
+74:36 要go to market
+
+74:37 我记得上次我们聊的时候你就说你们两个人每天就是这种打销售然后但是其实也是很难去获得打幸福这是你们配备的原因主
+
+74:48 要的对对对对
+
+74:49 但我觉得B two B是有playbook的而且其实基本上都是一样的就这么多年也没咋变是
+
+74:55 对但你现在你这
+
+74:56 都是你现在可以automate了
+
+74:57 对是
+
+74:57 的那你现在还要打sales call所以你要不要有一个ultimate的方式去打sales
+
+75:01 call肯定得有
+
+75:02 有用吗
+
+75:02 是是有是肯定是得用啊但是呃也有一课吧就yc说最开始找用户的时候就对我们是最开始嘛最好是用一种还是比较手动比较unscalable的方式就
+
+75:16 是说
+
+75:17 对呃因为这样的话你其实人工来一遍才有感觉到底你知道到底是
+
+75:22 说白就你自己亲自去写一个邮件对你亲自去打
+
+75:26 一个把这个跑通之后你再把
+
+75:28 那个给replicate
+
+75:28 okay对我觉得这里可以去总结的经验更多
+
+75:32 1st if there's a growth and sales has to be founder LED human LED
+
+75:38 是跑通了以后你再去automate不管你是请人就你higher还是你找agent帮你去automate就你自
+
+75:43 己得懂你得先
+
+75:44 figure out长啥样的就这个这个这个开快我对我
+
+75:47 后来我发现了对于founder来说其实最重要的事情就是这个你肯定有短板甚至你有盲区但你不能等这个事做起来
+
+75:55 的时候你还是盲区对
+
+75:56 然后我觉得我作为一个文科出身的content公司的一个founder我觉得最大的问题就是我觉得到AI时代我觉得我自己跳出来解决的问题就是我不能不懂coding我不能不懂
+
+76:08 技术原理我我觉得对这个可能还是一个体内怎么样的问题我觉得刚才然后他给你讲的时候终于想起来我要说什么哇对就是就是你讲下一个呃下一个独角兽可能不是一个tech
+
+76:23 company嗯
+
+76:24 我是在之前别人问过我就是说就是就你怎么理解AI native我说AI native不能说我说我们这样的机构AI native类了AI native类了没有什么稀奇的
+
+76:36 嗯就
+
+76:38 作为比较cutting edge的内容机构那Ana two也没什么稀奇的
+
+76:41 I hope
+
+76:46 这种有legacy的公司我说但是真正的AI native应该是下一个消费品或者制造业的公司它从from the day one它的制造流程生产流程就是AI native
+
+77:00 我同意我同意我同意我我refray一下我刚刚那个我认为下一个opc公司就是one person
+
+77:08 Is not a test
+
+77:10 因为我个人觉得AI native是从始到终你都是就是在用AI对吧所以那么given呢这个agent也是你自己搭的data set是你自己去有creation参与的那么你你你不管是做什么行业就你做manufacturing你做tracking你做任何行业你都可以去搭一个AI
+
+77:30 Yeah so you shouldn't believe the OPC narrative
+
+77:35 Oh yes wait what do you see down for the do you like OPC your canyons just like
+
+77:39 硅谷就是就是Solo perner啊就是one person uniporn之前PG也有讲过就是Maybe已经有两年多了就是the second gbd three one five我觉得opc就已经出现了但是它实质上还没有特别成立为什么呢因为首先想象力没有打开其次之前模型不够好那么现在模型够好了那我基础设施层做的还是不够好那么我做就是为什么opc依旧是demo程度没有成为现实
+
+78:04 呢
+
+78:05 不是因为它不可能而是因为就是你的ecosystem没有达到就是还是有点early那么我其实自己写了一个article就from now on tail到什么程度我OPC才可以轻松实现呢我们缺乏的是啥我们缺乏的是啊infra layer我们缺乏security
+
+78:20 和trust
+
+78:21 我们缺乏一个就是门槛很低就可以迅速搭出一个production grade就可商业化的agent它是scalable的它是monetizable的且它是你自己搭的我觉
+
+78:31 得这是重点
+
+78:32 就当你去用third party的东西的时候你就要付很多钱且你没有很多的control
+
+78:36 那么一个真正
+
+78:37 AI的公司它从第一天起它就是AI的对吧那么它其实门槛没有很高因为大家都就是现在的coding语言是啥是
+
+78:44 English
+
+78:45 只要你能说话你就能扣但是首先你得了解底底层的逻辑
+
+78:50 就你不需要会写Python那起码你读得懂嘛那Python基本上就是英文那么第二点就是你要理解说AI agent是啥你都想象不出来它内部结构是啥对吧就是模型加工具那你怎么去搭好的AI agent你怎么去把这个agent优化对吧你你你在哪几个维度上优化它也很重要那么benchmarking没有达到想象力没有打开那么最后一点就是我觉得大部分就
+
+79:11 是没有
+
+79:12 就是你想象不出来你能搭啥就是
+
+79:15 如果你从你就是我为什么okay为什么我这么boil上OPC是因为我个人觉得世界上那么多个可以去实现的low hanging fruit
+
+79:24 High male HI dot mm hmm 99% of the agents that can exist does not currently exist right and it doesn't exist because there's a would do that
+
+79:32 可以去搭公司的人就是依旧需要跨越某一种门槛但当你的门槛真的降低的时候只要我从自己的亲身痛点出发chances are我有的痛点别人也有那么我解决了我自己的问题我实际上也许就解决了别人
+
+79:46 的问题
+
+79:47 Made something people want or maybe I made something agents want no whatever had just a giant production grade in fact
+
+79:53 就可以开始变现那么这不就是一个公司吗那么假设你空间足够好你的解决方案足够巧妙它就是一个Unicorn它就有hockey state growth
+
+80:01 它就有这个东西但其实我对于opc我可能会有一个have就我对op我对你刚才说的事儿我就我我是属于是agree or disagree的这样的一个状态对然后对一个非常重要的一个原因是我从我自己的这种personal experience的这种角度来去说OK
+
+80:20 I'm now using AI to do everything in my yeah in my work no
+
+80:26 no
+
+80:27 no
+
+80:29 没有我就但
+
+80:31 是这里边的话就是说这里边的话我就核心的东西完了我无外乎就是三个嘛就management writing和
+
+80:37 So the coding coding or your or data prototype
+
+80:42 这边的community然后现在这个呃还没有这个现在就是在上面随便搭了一个我们还没有自己的一个一个portal我说我们现在要马上我们要搭一个portal这个事儿其实我自己我现在是在操作一部分的这个过程当中我发现了一个问题啊就是我最擅长的部分可能是用
+
+80:59 Coding choose or write to writing like coding even even I'm good at writing so you're
+
+81:06 good at prompting and that's great
+
+81:07 yeah I'm good at prompting I'm good at writing
+
+81:11 自己train就我自己
+
+81:13 呃train
+
+81:14 我自己封装了好几个skill用来去读思考和写
+
+81:18 great
+
+81:19 嗯我自己封装好好几个这个这个东西然后做的已经我觉得我做的还是挺好的嗯然后但是写出来的东西他学了我的两百多篇文章啊跟着我一起去思考过很多议题嗯然后出来的东西三号好三号还OK但总还是有
+
+81:39 AI味儿就是还有一点点AI味儿我是鼻子特别灵的人就我现在看到那么多公公号文章我一看我觉得谁是用cloud写的太明显了然后我又做了一个skill去去aiver去的还行啊以至于我前两天有有有一个爆款可
+
+81:55 以公开这个skill
+
+81:56 吗我也想要
+
+81:56 用我待会我公开一下这个对
+
+81:58 对
+
+81:59 对就去aiver的skill然后我前两天我我我我写了一个文章黄仁勋记中本聪
+
+82:05 是一个爆款文章几乎没有人去问我说这个文章是不是AI写的我还是很诧异那个文章其实AI的操作都是非常高的我说的是我擅长的部分嗯但是我说我这里边的一个问题就是说我这里边我做了很多的工作嗯我知道我自己我的工作不完美所以我还要再做一个去AI的skill我之所以做这个东西的原因是因为我对文字敏感我对writing敏感我对writing的要求高所以我要不断的去risk bar我增加这个工作的复杂性嗯
+
+82:32 当我看着这边cloud code跑coding或者说Codex跑coding那边网站或者甚至用no code的工具拉或者或者美团的no code甚至用这样的工具你去跑网站把东西搭起来fancy的这个banner出来了这个这个这个插件出来了网网页搭好了我看着code去跑的时候我是没感觉的嗯但这个code很有可能是个屎山嗯这个code很有可能很难用对然
+
+82:54 后但是我
+
+82:54 对这个东西我没有感受力我还觉得挺好的对
+
+82:59 然后但
+
+82:59 这个东西的话但如果我说当然我不可能
+
+83:02 啊我说这个接下来我就自己然后带着两个人然后去运转加拿大我做一个三人公司我都不是一人公司这个事儿我自己全能handle嗯其实不能嗯他会他会让你觉得你能了但那部分也不是完全不能起码你你你你能做出来但这东西不足够好可能有很多的bug可能后边有很多的risk但你自己不知道当你要重新学习的话你发现这是个非常非常大的工作嗯
+
+83:29 然后你擅长的部分你能把它做的足够好我觉得一人公司的话可能会有的问题就是嗯因为我们我们认为founder founder最好是最好是六边形战士是短板越少越好但一人公司好像能够让你的一级你最长的那个级从过去的八十分变成了120
+
+83:47 分
+
+83:47 对它会让你短的级可能从过去的0分2十分可能变成了40分5十分但这个东西它是不qualify的
+
+83:54 我
+
+83:54 我完全认同你的看
+
+83:56 法我觉得你们俩说的
+
+83:58 事情其实就是不矛盾就是
+
+84:00 不矛盾
+
+84:01 你说是可以做成一人公司但是你觉
+
+84:03 得是no首先是有人帮你解决六边形战士的问题才会出现opc现在是不可能出现opc为什么因为我觉得
+
+84:11 没有一个工具能够把你变成六边形战士
+
+84:13 对或者没有几个工具可以但我觉得underlying的逻辑还是基础设施真的不够强大你用logo你搭出来它就不是production grade你的DP它就是会被爆就就会爆雷但我就看不懂每天都有爆雷那么重点是这个看懂liability它不应该在你身上它应该在你用的工具身上所以为这是我们的dalos lab做的是什么呢就我们做的是保障就比如说我们最近开源了一个呃open source的alt framework我们的保障就是你不需要去理解
+
+84:41 security你不需要在以任何程度上成为security专家我们的保障是平台和你用的任何工具永远接触不了你的秘密就我们自己都看不到你的秘密而且这不是一个runtime实现的东西因为open来runtime依旧可以去leak你的秘密它更多是在runtime之前我们就已经secure住了你的秘密access is given by secret or not lead OK所以我觉得这很重要那么我们其实就是把the liability of security remove from you嗯但是大部分的就是我觉得平台和工具它没有做到
+
+85:11 这一点他只是帮帮你把coding就写码的速度变快了且能实现demo的程度就是变得更快更轻松了对吧我logo一下子就做出一个保障看起来很棒
+
+85:21 Then yeah what next is your then then the OPC is built on top of production grade infrastructure infrastructure is currently not production grade
+
+85:29 so
+
+85:30 但我觉得像Thomas说的就是确实嗯如果你是六边形战士的话就是还是就是我觉得还是需要各方面你这个人对都有一些对技术的能力他他会更
+
+85:41 好一些我我觉得一个是我觉得Kathy你讲的是怎么能够就是
+
+85:46 Production level or production grade
+
+85:48 工具能够让我这一边变得足够的长就你不需
+
+85:51 要去理解口
+
+85:52 你就你只需要相
+
+85:53 信就是我
+
+85:54 我这边八十这边一百五那我也很强了我觉得一个强大的剑你看这
+
+85:58 个我觉得你只要四十就
+
+86:00 够了
+
+86:00 四十就够重点是你只要能读懂之后的东
+
+86:03 西OK就是
+
+86:03 你不需要去理解说到底是什么样的是好的database structure what is a scalable DB DB应该帮你解决这个问题是不
+
+86:10 是这个阶段
+
+86:10 就是我我目前的一个阶段就是我恐慌的部分就是我总觉得如果它不不够怎么办我自己是不是还要再多学一点
+
+86:18 然后这个就是我目前的一个部分然后我我优势的部分我就是足我我我我用我眼前所有的这些工具足够用我能让它变得更好嗯对谁能够用cloud写出没有不是而是这不是什么而是什么两个什么一个什么这种套路的东西我我能用cloud我能用cloud code写的文章没有这个破味儿我能做到嗯对就刚我们刚才又聊了一个话题我觉得还是挺有意思的因为我们就讲说这里边的话有很多短板其中有一个是security嗯我特别想知道我觉得这个事儿一龙和Cathy就是我特别
+
+86:48 上
+
+86:49 The young should I for agents to take a security guard to junction young
+
+86:54 觉得就是我我这个嗯从上一个会过来的时候我看路边cloudfare的广告嗯告诉说这个cloudfare的我一我一特别好的body我就在cloudfare我一看那cloudfare广告它那个词儿我忘了反正大概的意思就是用中文讲的话就是这个是你在AI时代最好的一个安全防护我就说我说come on
+
+87:13 凭什么club是在AI时代最好的安全防护你不是那个pull you a human那个当牛你那都是给人准备的吗你都是当
+
+87:23 人去登
+
+87:23 陆一个website的时候你不是说给人准备的吗
+
+87:27 就凭什么come on你
+
+87:27 为什么你在这个时代你是最好的东西所以我就我就想知道就是for agents to agent这个时代的一个这种安全的这种基础设施和这个框架嗯
+
+87:39 第一个它应该长什么样第二本身它应该是一个工具它还应该是个infra还有它本身它就是一个agent
+
+87:44 嗯嗯啊不
+
+87:46 好的问题对我
+
+87:47 我个人的想法是我觉得security一定是就是一个特别layer的approach而且
+
+87:52 They assume so they got AI everything can go wrong visual prompt injection hallucinate no just security
+
+88:00 本身特别难因为
+
+88:04 So go wrong any anywhere how it's always some model
+
+88:08 可能会很把很很简单的问题给把它做嗯如果其实更更理科一点啊就是嗯回到控制论里面有有个概念就讲你作为控制器的复杂度一定要比就是被控制器的复杂度
+
+88:23 要高也就是说比如说我们人比一个东西更聪明的话那人可能控制它但问题就是AI model现在已经太聪明了那你就是更更复杂的控制控制器是什么呢可能是另一个更强大的AI model那你这
+
+88:36 个AI model又来这听出
+
+88:37 你就很scare对所以我觉得只能是一种就是呃
+
+88:40 各个层面都都加上security的approach比如说它既时不时的就它它既防promotion也同时时不时的去monitor你的这个output是不是对然后同时也加上就是robase control是的啊但我觉得eventually就是我觉得可能没有一个完美的solution因为end of the day人也是黑盒人也可能做出蠢事所以
+
+89:01 不是人太黑盒了对我觉得
+
+89:02 hackers
+
+89:03 Hack doesn't need you'll keep iterating though
+
+89:05 我个人觉得几个点吧第一个点是首先现在没有足够好的安全体系嗯就是完全没有
+
+89:10 就是达标
+
+89:12 且就是完全不comprehensive嗯第二点是足够好的agent安全体系它一定服务的不仅仅是人类我举个例子就是我觉得嗯现在体系就是现在landscape里头我觉得大家很多人会觉得哎好像Office
+
+89:24 Right the oauth is what most people use open AI uses oauth and drop it uses oauth then oauth
+
+89:30 好对吧就是作为一个人类来说就是我去比如说三年去我的Google看看let's all out let's very secure那么首先all out也有一些就是dependences但是最近就是为什么还是有很多雷在爆呢包括说前段时间就line LM刚爆是不是重点还是因为就是当你去把一个就是project开源的时候就当有不同的contributor可以去contribute的时候那么就像他说的就是多个层面都有可能去进行attack from the very first就是我在写码的层面我就可以把这个
+
+89:59 Attack
+
+89:59 so security has
+
+90:00 Be layer但同时我觉得在一个A to a的时代最重要的点就是就是你的你的authentication和security matter它必须得是machine native的因为它其它服务的不仅仅是为什么意思呢讲的就是有时候你是没有一个人来去进行这个all step对吧就没有一个人来点你的window很多时候就是我的agent一秒内可以
+
+90:21 Go through 1000 API request and the general secure secret exchange and security
+
+90:30 After thought就是安全被排在后卫的时代百就是我我记得就最近刚做了一个security就是91%percent的pump and Jackson都成功直接就是attack龙虾是不是
+
+90:41 那为什么呢是因为
+
+90:42 Long as I have that wrong time she's quite relief in the secret stuff
+
+90:46 一开始龙虾的问题在于它所有的你的secret直接放在一个JSON file里头对吧所以就
+
+90:51 是很容易就被人拦截
+
+90:52 了那么它就是进行了一些优化那现在你可以说唉那我就搞
+
+90:56 Like a secure database
+
+90:57 or a host launch out or some kind of like a there's a word either got the Mac mini
+
+91:01 or
+
+91:01 Azure watch out the hosted solution
+
+91:03 连到AWS okay那么我龙虾跑到continue以后好像就说唉那我有一个安全的sandbox environment我是不是就安全了没有啊就是like it said就是
+
+91:12 A task can call from any layer so it's not open cloud so that when you should in runtime initial that all my data is in a secure sandbox
+
+91:23 给出去对吧当我去进行某一种access的交换的时候就我是需要把我的super pass给somebody else
+
+91:29 的
+
+91:29 那么在这种情况下一oas不足以支撑所有的情况对吧有很多API key或者就是other type token exchange OS支撑不了第二点就是以后一定不是每一步都有人类在甚至有可能完全没有人类所以还需要什么machine native
+
+91:43 第三点是
+
+91:44 为什么我们做了open source
+
+91:46 Uh off framework tell the tell the through admin T was I wrong
+
+91:50 Time是因为你的secret本身就不应该给出去就我们赌的是说在未来就你不可以把secret hand out你只需要hand out access那么我举个例子就是为什么我觉得现在时代都在converge像这个方向呢比如说RAM最近出了agent car
+
+92:05 那么agent car它不是直接说我把它car number直接给agent那么agent
+
+92:09 就可以给所有
+
+92:10 人更多是我有一个token这个token是ramp verify且VISA verify的那么这个token在VISA approve的vendor进行交易的时候它recognize这个token知道说我这不是一个random bot我这是一个ramp approve
+
+92:21 Agent that you want agent card
+
+92:23 Token给到但是实际上没有任何数据泄露嗯我觉得这是一个非常重要的的步骤那么这个步骤又究竟由谁来就是whose liable for this肯定不是你就肯定不是opc肯定不是用户嗯它一定是基础设施层
+
+92:36 对
+
+92:37 所以我觉得security
+
+92:38 Infrastructure
+
+92:39 problem security is an infrastructure problem OK
+
+92:42 它是一个infrastructure对这个也是一个很有因为这个其实上我之所以有这个想法是去年豆包手机的那个事儿我觉得我我后来就龙虾的中国火其实我我后边我我也我也我也特
+
+92:57 别
+
+92:58 困惑啊我说啊我说去年豆包手机干那个事儿被你们骂成这个样子把龙虾干的比他还过分然后你们都支持
+
+93:07 The reason why so what's your logic behind
+
+93:11 呃但是我觉得这个事当时豆包这个事情完了之后其实我他们请一些朋友和专家给他们提意见其实当时我讲的就是这个问题就是其实有有一层就是信任机制的问题就是嗯就这种这种授权的问题和这个东西就到底应该控制在谁谁谁手里这个技术是他们是谁然后我们那讨论完了就是说好像不能是你们
+
+93:35 嗯我的意思就好像不能是你们也不能是我们那就得有一个第三方对
+
+93:40 一个对第三方且它有安全保障
+
+93:43 它有安全保障然后它它是一个infra的一个公司或这样的一个这个机构我们当时经常都讨论这个问题这个东西应该交给谁嗯因为所有人都在争抢这个事情对对
+
+93:53 当
+
+93:54 微信说豆包不安全的时候微信就想做这个就这一层去做certification嗯然后做这个做做authority的这样的一层这个就这样的一个东西
+
+94:05 嗯对然后豆瓣想这个东西自己去就自己也想自己去做我说这是不可能的就这个东西其实上是来自于就是这样的一个嗯就这样的一个这个思考我
+
+94:15 觉得你其实讲到了一个非常有趣的点就是
+
+94:18 Here's my bet was the next infrastructure company that wins is vendor agnostic I eating that should be
+
+94:25 其实他得兼容所有
+
+94:26 人那by the way那如果open AI投了一个这样的这种security infrastructure
+
+94:31 Yes the security and problems
+
+94:33 为什么open AI会投
+
+94:34 这个公司是不是对那他投了他们还能不能从一个公开的一个协议和一个标准对吧
+
+94:40 对的就反正我个人觉得是这样就是当模型都已经有baseline capability的时候就是以后的模型之间的区别是非常微小的那么大家都很强大的情况下你你应该可以去使用任何模型工具也是同理所以provider
+
+94:55 Like a vendor agnostic is really important the rule the a vendor agnosticism protocol no protocol
+
+95:01 为什么很重要是因为它是standard它是unify才不贴
+
+95:05 合任何人
+
+95:05 就所有人都遵守它而且所有人都在contribute因为portal一定是开
+
+95:09 源的嗯所以
+
+95:10 其实emperor portal是go hand and hand但是有些portal解决不了的问题它只能写协议它不能教你怎么去implement这个协议就需要有emperor来执行
+
+95:20 Now I check infrastructure rule so you go close loop ecosystem usual open echo and topic the SDK Neutrogena how come to do the more thing
+
+95:26 嗯那你之后是不可能是就我个人认为就是你必须要有一个可以去连接任何东西的第三
+
+95:33 方第三方对
+
+95:34 对因为你以后一定是就是的
+
+95:36 The next OPC or the next company that wins is a company that knows how to test different models and different tools and has different agent combinations yeah
+
+95:46 找到最佳的agent组合你才可以比所有你的竞争对手更先一步给用户更好的体验
+
+95:52 对嗯这个我是同意的嗯所以说到这儿啊就是因为我们刚才我们聊的就是这个想其实是这个现在是一个
+
+96:00 Touch the blank it is still a blank need need founders to fulfill
+
+96:07 对吧然后就这个东西它是一个这样的东西但是从另外一个角度我觉得其实还是有很多这种空白点的我不知道就是现在是一个什么样的一个情况比方说memory嗯就memory公司现在有没有更好的一些就yc这两届有没有做memory做的比较好的公司很多人在外面的对对或者大家都是怎么去做这件事情就是说这个里边一个基本的一个思考什么因为我这这里边我之所以问这个原因是因为我是挺困惑的就是有没有可能有一个unify
+
+96:35 5 memory infrastructure and how to solve each problem
+
+96:43 而他以后必须得有究竟是谁我还不知道
+
+96:47 OK他会是个很大的公司就这个他是一个这这个他会是一个很大的公司一个memory的公司现在memory memory公司很多对
+
+96:55 你是具体指的就是memory的哪一个问题或者
+
+96:59 我觉得我觉得memory是一个多层
+
+97:02 面的问
+
+97:02 题是不是就是首先我得有一个database在储存我的memory其次我得做management
+
+97:08 Context management memory management so you're kind of like a rack layer just wasn't Josh
+
+97:13 Memory那么还有一点就是我可能不能储存所有东西因为这样子太太耗耗钱
+
+97:18 该忘就得忘
+
+97:19 嗯嗯所以我怎么做就是chunking对吧所以the token company其实最近也很火那么我个人觉得就是最近有很多就是做嗯就做各种各样
+
+97:28 Memory called context management of course my memory is not so much an infrastructure problem it's actually a tool layer problem there's one layer above
+
+97:40 公司会in now就I can say who但是我觉得他一定要有一些硬性条件首先他得是portable的什么意思呢就是我在open element
+
+97:52 So vendor agnostic and portable so he connect to anything and everything the tailored personal so the memory is relative
+
+98:01 对吧就是一个对于manufacturing记记部件很好的memory system
+
+98:06 和一个比如
+
+98:07 说CRM记人很好的system未必是同一个system嗯大家也有可能是我不知道他没
+
+98:12 法unified我现在觉得
+
+98:13 I think it's tailored to use case benchmarking that's
+
+98:20 all security to be
+
+98:24 呃unified的protocol因为这个事情是对每一个对大公司LM公司他们都想要的但对memory来讲就其实因为之前open AI他们不是就靠的不是出了一个功能说可以把open
+
+98:38 AI的memory导进来
+
+98:39 但是memory的话它很明显是每个公司把它当做就是就是自己最最重要的不是最重要就是很重要的一部分value在他们他们想通过这个去retain user所以我不知道说大公司他愿不愿意说
+
+98:53 把他们所有的memory都
+
+98:54 导出来
+
+98:55 对对一个是导出来然后另外一个就是memory它能够不同的场景就你用的memory的结构是不一样的就是说做virtual agents就来说的话就为什么我说套个壳就可以去做对因为他不需要他的大脑是最聪明的你只需要调调取大脑中的一部分这个工就我们老说这个就咱私下里说的中国的中学老师啊其实都挺没文化的但是为什么能够教出分那么高的学生因为
+
+99:20 我只需要调取我这部分功能我这功能调取了几十年
+
+99:24 对
+
+99:24 然后就够了这泛化中学老师中国的中学老师泛化能力极差幻觉极高泛化能力极差但解决具体的的问题的能力很好就都是agent那我要这几句话能这话
+
+99:36 能说吗说的很心高采烈我
+
+99:38 觉得如果
+
+99:38 是这样他就是一个好的老师他就是一
+
+99:40 个好的老师这个就跟我们对agent的要求是一样的然后我就突然觉得他们可以被agent
+
+99:46 Adrian was a sculpt memory sculpt access scope security sculpt
+
+99:51 sculpt
+
+99:54 回来的话我的意思就是memory这个东西其实还是很复杂的因为我另外我
+
+99:58 Why unified memory which we thought there would be a unified memory structure to do your injury invade the memories
+
+100:09 我理解
+
+100:10 我其实还有一个点就是你刚刚讲到很有意思点就是
+
+100:15 You know what memory is not what what it's not even memory is more experience is not the bad just open the echo
+
+100:23 Personalize跟Taylor的体验他们一定是基于我对你有更深刻的了解那么就是我的我对于你用户的memory更多在这种情况下他们会不会close up
+
+100:32 From the ecosystem where's more unified memory
+
+100:39 的问题呢是因为我觉得就是你就是你可以去close up你的ecosystem就是做一个AI lab但是你没有办法阻止就是somebody to connect a tool对吧就我不管是接一个mcp我还是就是connect to a API API我觉得有点难但是可能Maybe一个mcp的话那么我就是我就是可以实时去捕捉这个data就除非你就完全block掉我这个tool那么我也有ways to get
+
+101:03 We get SDK that you get infrastructure level which it's on the moisting how to deal with the memory systems okay lot there's
+
+101:09 得是一个tool他很难说就是我直接去integrate的话那么我可能跟open AI做合作
+
+101:15 No
+
+101:16 it's
+
+101:16 awesome to open up
+
+101:17 不让我去跟人发挥做合作了所以他如果他是unify他一定是venture
+
+101:21 对所以你刚才讲到了几个事就是这个memory这个东西
+
+101:26 Detail personalized
+
+101:28 嗯然后第二个东西的话就他他要他要属于就他要能够由由用户自己来掌握他不能是anthropic或者是open AI的对然后他要有
+
+101:38 It's already decentralized
+
+101:40 对它是decentralized decentralized就是它它属于个人基于这两点其实你会觉得你就我不知道最近有没有更多的因为我现在我也在看有没有更好的硬件公司或者就这样的一个这种趋势出现因为我觉得就是open cloud这个事儿对我来说其中大部分东西只要你用cloud用的多你都会体验到但有一个非常重要的事儿就是让我觉得就是个人的数据记忆嗯和很多东西其实应该存储在一个个人的设备上
+
+102:09 这个设备绝对不应该是Mac mini嗯
+
+102:12 是
+
+102:12 我们公我们我们是就yc八这有一个做这样子的公司它是
+
+102:16 一个硬件公司
+
+102:17 OK它目前是一个软件公司但是我觉得它就是OK我觉得重点是你得有一个可以plug into任何硬件的软件因
+
+102:25 为
+
+102:25 你硬件很难去就是做到传播我觉得但是你软件如果能放到任何硬件里头
+
+102:31 或者你软硬件同
+
+102:32 时做我觉得会OK这个公司
+
+102:34 嗯叫APP center就他们我不知道他们现在做咋样那他们当时的thesis
+
+102:38 就是如
+
+102:39 果你可以把你世界上所有你生成的数据都变成markdown file嗯然后你把它放到一个central decentralize属于你的knowledge center对
+
+102:47 那么你
+
+102:48 就可以把plug into any
+
+102:51 How can you find out opening act how can you find out the topic can you find out
+
+102:55 我的手机的某一个APP上
+
+102:57 面对
+
+102:57 这是他的thesis具体能不能做到我觉得channel很难很难去打通
+
+103:02 To the to go BYO
+
+103:04 M3 are all narrated BOM
+
+103:09 the BOM the
+
+103:10 需要因为我觉得之所以有个硬件的原因是因为就是它总得以某种形式存在一个地它可以是个很小的硬件它可以就是嗯它也可以可以是个很大的硬就是它可以是个充电宝中的一个模块然后它也可以是一个类似于三disk那样的一个的一个东西的一个模块anyway反正我觉得这个事儿就我我就瞎想
+
+103:29 但确实你说人生的记就我有过学过神经科学所以对人一生的就是大脑里所有记忆把它用数据量
+
+103:38 的话都不超过一个big by所以你想的话它其实是一个商业级的disk大小对对对就没有没有那么多记忆完全可以创造一
+
+103:45 个硬件但是我们需要这些东西我们需要有更多的记忆我们不我们是不满足于我们人脑里边已经有的
+
+103:51 这些再加上你电脑上也有各种发你对台上
+
+103:54 有的各种发对因为我现在我老我老觉得如果要有一个硬件设备能
+
+103:58 够
+
+103:58 捕捉你一切interaction对现在是有很多啊
+
+104:00 就现在我就我现在我说的所有的这种什么胸前做个摄像头这种东西包括Mata的眼镜我说你们都是memory我说你们都应该总是memory产品就我是觉得现在就是就是人的这些东西的这种记忆的这种捕捉应该靠外力去实现不是靠人自己来去实现所以它的它的容量可能要更大
+
+104:16 我觉
+
+104:16 得这里其实基础呃接触到一个非常有趣点就是为什么
+
+104:20 你要储存记忆那
+
+104:21 么你的出发点是什么对吧那么我觉得事实上大部分人他就是如果愿意去储存自己的就是记忆和生活的话一定不是因为说哎我想要记住所有东西一定不是说我就希望知道我十年前的早上十点说了啥更多是我想要一个更Taylor更
+
+104:36 Personalized the experience no he ends without eating cigar fritons without the facet
+
+104:42 怎么做到更好的个人体验呢一定是你拥有更好的用户的knowledge那么bringer all memory我觉得是一个非常好的点
+
+104:48 但我觉得重点是你怎
+
+104:50 么拥有更好的个人体验一定就人人为什么记忆这么少所以你只能记住很重要的片段就人
+
+104:56 的记忆其
+
+104:57 实非常碎片化的但是如果你想要真正做到更好的RL那么你你要你要去衡量更多的facet对吧你不可能只记住说你的情绪就你很很大的情绪波动或者是你人生中重要的人生节点你要记录的可能都是你的behavior那behavior是人自己记不住的东西
+
+105:12 对吧因为你就是你怎么去储存它到底是什么样子five format它可能是clicks它可能是squat就是就是你的鼠标的动作它有可能是你的眼睛看到的东西对吧就是
+
+105:23 你怎么去记这个东西呢就我不知道file format可
+
+105:26 能是个motion它一定
+
+105:27 是几至少几个TB多的数据对吧就是而且你你必须要实时去记录于你要去学习嗯写每一个人就你学习到这个人的behavior pattern越多他就越Taylor那么我觉得之后的就是personalized这种时候我觉得必须要讲一个点就是我觉得我设想的未来和你设想的未来很不一样
+
+105:46 不能一样这人本来就是不一样的
+
+105:48 不不我来解释一下为什
+
+105:50 么不
+
+105:50 一样就我觉得
+
+105:51 我们回到之前那个op系列讨论你担忧的点是说哎现在我到底要学啥才能成为六边形战士就我就这样做啥才能达到成为一个你
+
+106:01 已经有能力就他已经有能力让我从不懂到入门了那你有没有能力让我学的更懂那
+
+106:08 么我们俩最大的区别在于我想到的是我怎么才能脱颖而出点和你的完全不一样就你还在担忧说我怎么成为六边形战士而我在担忧是当大家都成为六边形战士以后究竟是啥会让你的产品
+
+106:21 脱颖而出就你的公司凭什么成为独角兽那么他他拼的是啥
+
+106:25 就我自己的一个擅长的点做的足够好
+
+106:27 对他他拼的是你的一百二十分对他拼的是你对于世界的洞悉能力你对于用户的理解你对于痛点的理解和深度对吧且你解决你解决问题的方式和用户体验
+
+106:40 那么这就这就打到了bring your own memory就是你怎么去做一个Taylor的东西同时也讲到就是就我觉得以后会赢的一定是首先他很懂他做的行业和方面其次他很懂人性
+
+106:51 他
+
+106:51 很懂世界他很有product internation然后他有taste
+
+106:56 所以我觉得现在就你你还在想说呃我有点generalize我觉得大部分人大部分人都在想的是呃我怎么能把Python稍微能读懂那我已经在想的是我就是半年后的世界大家都会读Python或者你根本不需要读懂Python的情况下我怎么去faster taste嗯我怎
+
+107:11 么去了
+
+107:12 解世界我读什么样子的书我才可以去了解人性
+
+107:15 你这个区别在于我之前不懂我之前没读懂这个东西就是人们总会觉得自己已经掌握的东西是take it easy的东西我还觉得writing skill是take it easy我发现很多人写东西仍然
+
+107:26 你确实比比比比那个东西更容易掌握但是很多人掌握的还是不足够
+
+107:30 好对可能有一定你达到后就是可以access一个东西的好或者坏或者你知道它什么stare the election我觉得对
+
+107:38 这个可能就
+
+107:39 就我最担忧的是大家都可以写满了就是世界下我怎么把我的八十分变成一百二十分
+
+107:46 嗯我的八十分是啥我有八十分我没有的话我咋把自己变成一个比如说三年型战士嗯对吧这这三角形战士就是就是我现在最担忧是这个点对就因为我觉得我无法想象半年后的世界长什么样我不知道你能不能想象到那很多人问我说五年后世界再来我说世界有可能不存在了世界有可能就已经毁灭
+
+108:05 掉了这个就是当下我觉得就是我我这个我一个心得因为我过去我是一个
+
+108:10 我INTP你是
+
+108:12 INTP看不出来是吧你是
+
+108:13 看不出来我爱还是看不出来我屁还是看不
+
+108:15 出来哦我
+
+108:16 看出你屁了但我没看出你爱
+
+108:18 你没看出我爱我我超级爱哦我对我作为一个INTP我我特别的爱就是我作为一个INTP其实说我我我是一个我最近在纠正我自己一个事儿我我昨天晚上突然悟明白了我说怎么这个时代怎么连Angel compar
+
+108:35 From there Andrew capacity
+
+108:39 在那儿发明y coding这个词发明完了之后尝到甜头之
+
+108:42 后就天天在那儿search OK
+
+108:43 对天天在那儿讲不准最近讲哎呀我我现在我都我病了嗯他病完之后Garrett就病了Garrett现在就很很着魔然后把那个gstack然后现在都弄到比open cloud这个星儿还多对吧然后完了完了他就病了每天就疯疯癫癫的然后那儿这个去做这个事儿我这事儿好还是不好然后我就我起初我质疑就这些人其实带给大家更多的是formal情绪
+
+109:08 嗯和这样的东西就是这种情绪上这种感染包括open cloud我当时我觉得我说你我说你们用过当然中国很多人没有没有没有能够因为老封号嘛就没没有能够特别好的用这个cloud code嗯就是说我就说说这个东西就是你们怎么就那么兴奋我不是一个喜欢给自己施加这种情绪的人嗯我觉得这个东西
+
+109:29 对我
+
+109:29 就是不这么想了哦我就不这么
+
+109:32 想就是
+
+109:33 not就是
+
+109:36 You know Andrew can probably look every time
+
+109:38 风啊就是这个给了我很大的刺激因为这俩人都不笨这俩人很聪明的人就这俩人抽风就第一个是他们获取关注和做margin的一个手段我们叫炒作第二个的话我是我是发现这个时代我们不能太冷静我们有的时候可能就得有点一惊一乍那国内很多不点名的同行的是吧然后那个标题都起的对吧炸裂了然后吊打然后完了然后然后这个
+
+110:05 Solo Solo问世世界没了Solo two发布世界没了那种标题然后他结果就Solo two先没了对吧然后就这些事儿那我后我后来我发现就是我慢慢有点理解他们了就这种理解是来自于我自己的惶恐因为我后来我一想我我我说我是每天都那么镇定吗也不是我也formal我还能我靠他妈的这个gstack这这玩意儿怎么能够那么多芯儿呢我靠这个open cloud怎么可能会超过Linux呢
+
+110:32 你也来写一个没
+
+110:34 有哦我就可能写一
+
+110:35 个你的skill也
+
+110:36 开源我的skill也开源这是一方面另一方面我自己我是这过程我自己我心情没有那么平静我操他们腾讯居然那个权限这个去follow龙虾了我操这follow成什么程度我自己我也我也很不平静我为什么要装平静我每天我也活得一惊一乍那这种一惊一乍就是来我现在终于明白这种一惊一乍就是来来源于我们不知道六个月之后世界会
+
+110:57 变成什么样
+
+110:58 是所以我觉得现在
+
+111:00 没有我觉得国内那些人他们没有对我没有影响什么卡斯克人对我都没有影响那我觉得对我影响比较大的就是andreacrasic跟Garrett这俩人看现在每天都在抽风每天都在施加情绪每天都在用情绪和hardworking然后再去给这个世界去推动压力我不知道他们惶恐不惶恐就这个感觉但我现在我是觉得就我我没法做到平静了现在已经
+
+111:24 我觉得here's my take就是我我对于这样子就是是这样子就我自己在推特上也很
+
+111:30 unfortunately我也是一个就是rage waiter unfortunately我也会经常会写一些engagement很高的tweet那么
+
+111:36 My take is that so you go attention is all you need is that
+
+111:40 Engineer attention那么真
+
+111:42 正engineer attention
+
+111:43 对真正能让attention聚焦于你的东西一定是就是非常贴合人性的所以你去制造恐慌你去制造情绪波动你是你play into other peoples uncertainty那么我觉得你讲到的一个很好的点就是这个uncertainty和这个fear对吧it's就是
+
+112:01 I thought you lie on your show up what are you
+
+112:03 Sing out on你根本不知道对吧就因为你因为你想象不出来世界是什么样子我也想象不出来我甚至不觉得Gary can想象的出来
+
+112:10 那我我也不没有人
+
+112:11 能想象出来世界长什么样子你你你越frontier你越想象不出来所以我会觉得说很容易就会陷入到一个emotion roller closer且你的信息密度越大你越容易就是进
+
+112:23 入情绪
+
+112:23 恐慌所以我其实比如说我我会发现
+
+112:25 说很多有有的是兴奋
+
+112:27 是吧就我觉得我的程度就是我每天的频率越高我就会越就是每天就是情绪在波动对但我个人觉得就是我虽然不知道世界六个月后长什么样但我我可以想象就是我我我不知道世界六个月后究竟会是什么但是我有一个自己想要的未来且我在向他推动
+
+112:47 所以我觉
+
+112:48 得这是很重要的点就是我觉得世界上大部分人他都
+
+112:52 坐的坐享其成就是他在等待某一个其他人制造一个他会进他会进入的未来嗯而我想要去自己制造这个未
+
+113:00 来对就你这你be a part of that
+
+113:02 I want to I want to create the future I don't
+
+113:06 want to be a part of it
+
+113:08 是这个时代我觉得其实一个特别大的一个刺激的感觉呃就是能够参与这个事儿的人事实上是变多了还是变少了就能够参与用AI去build the future to create the future的人是变多了还是变
+
+113:25 少我觉得机会比
+
+113:27 以前多这么多且资金这么多情况下为什么还是没有人能做到呢就为什么世上还是有只有少数人在做大部分的东西
+
+113:36 Actually it's a honeymail.com it's easier than ever before and yet you still can't do it you just can't picture it
+
+113:44 推上写了一个code然后我每天都要看一遍这个code因为我自己也需要让自己打开小箱子
+
+113:49 You cannot build what you cannot picture you cannot picture what you cannot define
+
+113:54 your
+
+113:54 definition is the ceiling of your imagination
+
+113:57 your definition is the ceiling of your imagination but
+
+114:00 所以我觉得我们都有一个天花板我自己也有一个天花板对但是我有一个我设想的未来且我就赌说就deadless赌的是我们的未来就是六个月后的时间
+
+114:12 嗯嗯对就是我们不需要看的更远但是我们六个月之后的那个东西at least然后就是我们要为那个东西去去做点
+
+114:20 对那么我觉得话又说回来那么作为一个普通人就作为一个也许你不是程序员或者你是程序员那你不是founder的情况下你怎么去not write the high
+
+114:30 Train or write the hype train right so concrete
+
+114:34 所以我会把推特上这种就是嗯就是不同的浪潮形容为海对吧
+
+114:39 It's like a wave of hype the moment that will keep concretely Julie the bone Tash of the hype
+
+114:43 嗯啊coi这个hyper因为我之前也挺hype现在大家又已经就是方向换了但是我个人觉得就是我觉得在国内我也捕捉到的现象就是嗯我觉得大家的动机都比较的short term什么意思呢就是我觉得大部分right hyper的人他他最后究竟在干啥他主要是想快速变现
+
+115:04 我怎么在对
+
+115:06 我怎么在这个风口上在这个时机下我怎么就给龙虾套个壳我就迅速变现但是我觉得真正能
+
+115:13 长久做的很好很sustainable的公司且在AI bubble破灭的情况下你依旧还存活的公司一定是做足够的沉淀嗯你不仅仅是个hype chaser你在hype chaser的on top of that你还搭了production grade的公司你切入了某一个真正的痛点你在hype中找到了substance然后你做了某些东西
+
+115:33 对在high中找到了这个东西
+
+115:35 对然后你做出了成果
+
+115:36 对
+
+115:37 快结束了我们一块儿预测一个事儿吧
+
+115:40 这个air bubble什么时候到什么时候破灭大概还需要多久
+
+115:44 这个我觉得很难预测
+
+115:48 Tell me the reason why
+
+115:53 会破对
+
+115:54 我觉得是这样子的我无法想象鲍勃为什么会破因为我觉得有很多种情况下都可能会破假设Foundation吗它就是特别好gpt 6.0超级牛逼那也许鲍勃就破了或者是经济不好政策变了那鲍勃可能破了但是我觉得更有可能且我设想中的未来包括画面是因为嗯
+
+116:19 是因为现在门槛太低了所有人都可以去搭那么拼的最后这真的是实力了实力不是你coding的能力实力是我刚刚讲的那些就是作为一个你的一百二十分是啥你有多了解世界你有多了解人性那么我们就在降低门槛你可以成为下一个obc但大概率你需要去沉淀
+
+116:40 我觉得只需
+
+116:40 要半年的时间我们下个月会举行一个非常非常盛大的agent tournament应该是历史
+
+116:48 So the history of the Internet is actually data online agent format we're targeting 10,000 plus builders with 100K US plus USD in the price pool
+
+116:58 OK
+
+116:59 well as soon as you got it's a tournament so agent fornament for money ATM now ATM had Joe
+
+117:05 you know
+
+117:07 shada agent gonna
+
+117:08 钱更多OK我们只拼一件事情谁的agent更会赚钱那么一个会赚钱的
+
+117:14 agent跟那些用龙虾搞赚钱的那些中国搞传销的人有什么区
+
+117:18 别区别是什么区别是一万多个里头一定有大部分都是龙虾套壳嗯那么在大家都在right the hype的情况下你的龙虾套壳的公司怎么就比别人做的更好呢你的产品一定得抓住一个更好的痛点
+
+117:32 嗯
+
+117:32 它足够深在所有人都在龙虾套壳情况下还有人愿意给你付钱哪怕你
+
+117:38 体验特别糙但是你只要抓住了某一个痛点you made something people or
+
+117:43 Want so we are hoping that ATM towing are the builder founder founder material production grade in fact in security it's so easy to attack track
+
+118:03 Agent来attack我们要互相battle的情况下你能不能survive对吧就类似于这种情况
+
+118:08 其实我觉得一个
+
+118:09 真正能在Real World运行且赚钱变现的agent它是要衡量很多东西的它衡量说这个agent的architecture multi agent architecture做的好不
+
+118:20 好它有没有
+
+118:22 在多个情况下做足够好to integration你在每一个use case每一个节点的use case的情况下有没有找到正确的模型和工具组合去执行这个任务写最后你的guard wills设置的好不好
+
+118:34 你的agent有没
+
+118:35 有迅速把你的可能启动资金全部用掉就我会和各种银行和就是我就不我就不命名字但是很多big name都会和我们合作
+
+118:44 One of them but we're going to be we're going to be wrapping X 402 so in the agent click it's the transcendent the agent
+
+118:51 给别人付钱他也可以收钱那这种情况下我觉得需要去衡量你对世界的了解所以我们一定不是还
+
+118:58 People when industry you make something people or agents
+
+119:01 wants you make something people a lot better or agents a lot too
+
+119:05 基于这个情况下五月份世界就已经会变得很不一样
+
+119:09 嗯对我觉得这个很乐观嗯但是我是觉得泡沫破如果要是破的话我觉得可能就取决于某一个标志性的就是人类历史上任何一次泡沫破都是一个标志性的一个东西的意外倒掉了
+
+119:24 嗯嗯
+
+119:25 如果是
+
+119:25 猜想是什么
+
+119:26 你觉得上一个
+
+119:27 破掉的泡沫是什么
+
+119:29 上一波是lemon brothers的破产然后导致这个金融泡沫的这个出现
+
+119:35 嗯再上一次是互联网泡沫那个那个呃时期我忘了是哪家公司了嗯反正九九年然后也是两千年一个公司突然对对那那会儿那会儿我也小对然后所以我觉得可能是一个标志性的事件我我觉得有两种可能我瞎说啊一种可能就是呃rapper中过过于贵的那个东西突然绷不住了
+
+120:02 但是如果我们说cursor是个rapper的话这可能是一直是一种可能我觉得类似于这样的rapper中有个东西可能绷不住了太贵了然后这是一种还有第二个东西的话是第二个东西的话我可能我觉得可能要花花的时间更久就是现在这几个big figure就是这几个大的模型的这个这个里边有哪一个估值过高撑不下去它都未必会倒但是我我的意思就是说
+
+120:30 它可能它会是一个关键性的一个信号因为这个信号其实可能会很脆弱因为这个涨的其实也挺快的但是我就说我说这个商业化能力那么好的一个公司它的这个付费和token消耗的比仍然会在一比1.2到一比一点
+
+120:46 四之间
+
+120:48 那比它糟糕的是这个事件的绝大多数就you don't know对
+
+120:54 那我也进行几个预测OK我觉得首先我可以确切的肯定的说
+
+120:59 呃算类它一定
+
+121:02 So
+
+121:04 Compute更便宜inference更便宜的情况下首先你怎么去赚钱其次所有门槛都降低就所有六边形门槛降低的情况下你怎么去挣钱第二点是
+
+121:15 Ecosystem is gonna close at some point
+
+121:18 不管是政治原因还是就是呃公司盈利
+
+121:22 原因
+
+121:22 就是我觉得当equal system close掉的时候就你有些模型你或者你工具套不进去了出不来了你memory出不来的情况下你怎么去compete嗯就是你的mode是什么我觉得很难说嗯然后呢当一个公司它就是无法盈利快倒的时候它有可能会做很多我觉得很
+
+121:41 变形的动作对
+
+121:43 对那么我觉得B to B SAS一定完蛋了
+
+121:46 There's deep the vertical expertise double from the bTB says is double from the general agent
+
+121:53 我觉得都没有未来这是我的预测那在这种情况下你怎么去找到你的edge
+
+121:58 嗯我觉得SARS的完蛋大家都看到了谁不希望Salesforce完蛋呢然后但他可能完蛋还需要一段时间然后呃至于说这个我觉得就general general model我觉得他们会被他们会吃掉就general model就这种generate
+
+122:17 Model generic agents
+
+122:20 他们会被模型厂或者会被大厂吃掉就这个过程呃这个过程会有但他们其实现在索性就不大你就metas再贵一些它也就是那个钱了它也就是一个两个billion左右的一个钱了就是说呃对但这个但我觉得这是个趋势但是我我我是觉得就是SaaS的倒掉不意味着AI泡沫的后面对
+
+122:41 对我觉得更多看到的是
+
+122:45 但我觉得更多是大部分资金已经流上了东西可能最后都出不了成
+
+122:49 果对出不了成果你刚才说ecosymb close掉了这个东西就卡在这儿了对
+
+122:53 eco对system close指的是
+
+122:55 Mutual moiga AL app closed out to the ecosystem the memory tool island connect Fay integrated partner the Guangzhou
+
+123:04 嗯诸
+
+123:05 如此类的东西或者是他和某一个政府进行合作以后出了一些政策就很很难说嗯这
+
+123:11 个事
+
+123:12 儿是真的是不好说
+
+123:13 的而且我我also觉得当inference越来越便宜的时候世界上有一大部分公司其实只是在套壳那么你别人都已经能以更低的价格去offer你套壳的体验了那你也得降低你的价格那你怎么挣钱最后没有人能挣钱only fans现在也没有人能挣到钱对吧
+
+123:32 就
+
+123:33 Sure inference company
+
+123:35 你我觉得这个事儿那我其实我想到的是NVIDIA因为它现在它的股价最近有点危险我这个一个非常重要的包括GTC我后来出了之后我有点懵了我说大哥今天没带货然后Vero Rubin其实这个东西大家都想得到我们都知道就是你收了gram总有个叫他收gram就是为了inference但即便是这个样子就是inference领域还是有其他的玩家嗯然后sabanova差一点silver brass可能还有其他的一些玩家
+
+124:05 然后他不是唯一的玩家但他又要去讲inference时代的这个token经济学的故事
+
+124:12 A whole
+
+124:14 我
+
+124:15 觉得这个事儿有点就是就是就是inference不是你最擅长的事情但现在你的故事完全苏里白汤的然后如果撑不住的话对算力越便宜token越便宜那对有的公司就不是好事儿是但这个可能对大家是好事儿但如果引发了bubble那对所有人都不是好事儿所以就现在这个事儿就就
+
+124:40 就处于这样的一个无解的这样的一个状
+
+124:43 态我觉得最后一
+
+124:44 个可能包括会破灭的点我
+
+124:45 嗯
+
+124:46 就是我我能预测到的可能就是data不够多了就是当所有人都还在执行scaleing law的时候我觉得就是你世界上可以去去衡量且可以去收集的数据它就那么多对你怎么在有限的数据内做出更多的花样已经是很多post training
+
+125:04 对
+
+125:05 landscape在做的事
+
+125:06 情了
+
+125:06 There's a foundation model will only only
+
+125:11 I think there's a ceiling
+
+125:12 there's a ceiling foundation model
+
+125:16 现在因为应该现在说这个我就看到俩趋势啊就现在有人说不知道是真的还是假的啊就是gpt的5.5点二包括5.45.35.4其实基本上就完全是在做postry已经不在是pre train上再去做工作了嗯然后如果是这样的话其实这就是一个的ceiling然后
+
+125:36 而且postry也便宜
+
+125:38 对postry便宜啊这是第一第二就是中国的公司我注意到中国现在的一些开源公司最近可能有变化
+
+125:46 Accidentally or not sure minimax are there
+
+125:50 2.7到底是你开不开源有人有人直接就骂了说你不开源我就不用然后我觉得这些人也反正也也蛮无聊你还用不用对吧有有人也问这样的5.1你开不开源我觉得现在另外一个趋势就是呃中国模型现在会把这种generic model用general model可能会开源然后但它这种for agent optimized的这种model型号就这个就是做做posting它会避源它会去卖然后我觉得这个趋势其实
+
+126:19 也是意味着一个这种就Foundation model它的一个ceiling嗯或者说就是Foundation model就说白了就是我开源能给我带来什么呢然后如果是这个样子的话如果这两个事儿都是真的的话就意味着其实算力和脱困消耗更多的是在postrain都在postrain的话但是就当前我们说的就当前的这这么多钱的流动和这个市值和这个价值体系这个定价体系是建立在pre train的
+
+126:47 前提上的但现在我们
+
+126:49 AGI的前提
+
+126:50 上AGI的前提上的但我们现在我们到了一个postrin去雕花的时代在post上去雕花的时代但这个故事还是建构的它故事的default setting是aji和push model对
+
+127:01 其实我觉得哇这
+
+127:02 么一想太可怕了
+
+127:03 我觉得世界在等一个奇迹我我也在等一个奇迹这个奇迹是有一天Foundation model它可以创新了
+
+127:11 因为现
+
+127:11 在自主创新吗他自己创新自己
+
+127:14 last day AGI comes
+
+127:15 right就我
+
+127:16 觉得现在就是我们怎么去贴近AGI我们是呃improve coding因为好像说哎可以给自己写码的
+
+127:22 agent和给
+
+127:23 自己写码的模型好像就很厉害对吧或者是self dynamic就是
+
+127:27 Training optimized training
+
+127:33 情况下就是我觉得回到你刚刚讲的一个点就是你给的数据再多这个模型还是写的有AI味就是它没有办法创新它最多只是next token protection at the
+
+127:44 moment所
+
+127:45 以我觉得大家都在等一个
+
+127:46 Sure when can models actually innovate and if they cannot then the bubble mappers
+
+127:52 then the bubble mappers
+
+127:54 yeah so some kind of
+
+127:56 不好我具体忘了是啥可能就是这样的一个model经过翻听之后他自己已经学会了怎么来train其他的model但是然后就离基点肯定就是说那种就是无限的
+
+128:10 它就是just on the paper对这个是啊
+
+128:12 对而且我觉得最后一点就是就我经常会想这个点就是the best
+
+128:17 Model is only as good as the worst human
+
+128:20 就是你的数据只有那么多且这么多情况下不是每一个数据都是good intent嗯就是你是有malicious数据的你也有no quality的数据的在这种情况下你就是做不了更好的模型没有更好的模型你就没有创新
+
+128:35 对
+
+128:36 对是的
+
+128:37 The best model can only write as good as the best human but it's really underlying only as good as the
+
+128:43 exactly
+
+128:46 OK我们今天好像聊的还是挺多的嗯我作为一个中老年人然后坐在这儿这么久也是不容易的啊
+
+128:54 开始根本没有聊够
+
+128:56 没聊够还可以再聊
+
+128:57 聊去赶下一个会了这么忙对我要去赶下一个会了然后因为我过两天得回趟北京所以说我得最近我得把事儿该干的还有事儿得干了我得在北京待俩月
+
+129:10 我觉得我特别佩服就是能迅速倒时差的人
+
+129:14 所以我前段时间是跨国出了几次差我觉得我要死掉了就我okay I'm only twenty two但是我觉得我已经疯了
+
+129:20 My body feels old
+
+129:22 what yeah I have no way that's the hard to show you actually what what a boy
+
+129:27 我我我thirty的时候我我我有过一一年啊北京旧金山之间飞了十次的情况不是说五次乘以二是就是字面意义上的十次就10乘2这种状况我我当时我是什么反应都没有的我
+
+129:43 觉得这是我觉得工作工作需求这是天生
+
+129:45 的我现在是能够做到在北京和旧金山之间基本上下来就
+
+129:50 无缝切换
+
+129:51 我就无缝切换我人人的帽子工作的帽子思考的帽子说话的帽子
+
+129:55 就是我是我是一北京人还是一个California取决于我我我落在了哪个机场我觉得
+
+130:03 真的是超能力
+
+130:04 对对然后但是我我最近经历了三个时区然后我去了趟巴塞罗那从北京巴塞罗那旧金山然后我就废了
+
+130:11 So Jason to be late hmm cool it's
+
+130:14 going to come to the island
+
+130:16 yeah
+
+130:18 哈哈
+
+130:18 你是啥MVT
+
+130:19 我是NTJ
+
+130:21 INTJ这还是对对猜猜
+
+130:23 你最后你是你
+
+130:24 是一都是ENT
+
+130:28 ENTT但我T和F比较中
+
+130:30 间对他ENTP对对
+
+130:32 猜猜一下我是什么
+
+130:33 MVT你说你是ENTJ
+
+130:35 ENT J ENT J
+
+130:40 比较像屁得
+
+130:41 是我这个样子的人我就就是
+
+130:43 没有发现只
+
+130:43 想不做的人呢
+
+130:45 没
+
+130:45 有发现我讲话很ADA是我朋友
+
+130:47 吗
+
+130:48 我
+
+130:48 非常的
+
+130:50 是嗯
+
+130:51 是我是我是很点的
+
+130:52 一页对对对但ADHD很多J就a instray的很多人
+
+130:57 No your ADHD the even master in J ADHD
+
+131:04 我觉得作为一个founder所有人都必须得破除自己
+
+131:07 的J
+
+131:08 但是我一定是个EN
+
+131:10 T
+
+131:11 P
+
+131:12 Unfortunately what goes the peer without the water
+
+131:14 就是我和我客户方面都是P人他其实是infp
+
+131:17 所以我总得有一个人变J这
+
+131:19 个人offer成为是我对对对对对那
+
+131:22 天还在想我们公司全是P人
+
+131:24 全是P人
+
+131:25 在硅
+
+131:25 谷这边的咱们
+
+131:26 公司啊
+
+131:27 P人才会创新
+
+131:28 咱们公司第一个是全是P人第二个加上北京绝大部分是爱人
+
+131:35 北京爱人很多
+
+131:36 我们北京Office基本就我们是一个我们这个公司是我们的北京Office爱人很多我们是一个
+
+131:43 啊没有仪
+
+131:44 式感到我们IP多
+
+131:46 啊对没有仪式感到了我们IP多对我们没有仪式感到了就是就是我开完会都是没有人鼓掌就是我开完会都没有人鼓掌的那种程度然后也对然后就是我说完一个事在群里面大家可以不回的哦对然后这个公司不组织任何形式的outing和聚餐因为老板就不舒服
+
+132:08 属于公司文化比
+
+132:09 较少
+
+132:09 啊
+
+132:10 这是比较扁平化
+
+132:11 这就比较扁平化对对对是就是
+
+132:13 就是我们是属于对就是就就是这个我们这公司互相之间不给对方提供情绪价值对然后就不能打鸡血打鸡血大家都觉得是假的我觉得这事儿特别可打了鸡血大家就觉得是假的我只有
+
+132:27 但东西真的做好
+
+132:28 了也很实在也还是很开心的对但但是对但是就这样的话就是特别没有没有仪式感就是不容易
+
+132:35 嗯
+
+132:36 这听着就是intt领导下的公司文化
+
+132:41 就就死人感特别
+
+132:42 强
+
+132:43 对就是死人感特别强就是就是就是这个样子就是就是
+
+132:48 嗯我觉得whatever works那我真的我作为CEO最大的感触就是呃你真的有时候需要给你的公司制造一些就是
+
+132:56 Superficial small wins but you got to feel like you're winning yeah Joe you feel like you're winning it's all good any format of
+
+133:05 我们有一个活动我做一个mini版的SF
+
+133:10 But
+
+133:16 然后两边场地全变成就是第三方来做然后我们自己好色心中机场找的还挺热闹然后区里边领导还都过来看了那个之后我我们也没有活动结束之后赶快收摊赶快收
+
+133:28 五千万累死了
+
+133:29 赶快撤东西六天了大家赶快撤东西累死了没有人合影没有人拍照没有人celebrate然后第二天该开会开会但你能感觉到大家就还是觉得啊
+
+133:38 赢
+
+133:39 了
+
+133:39 Something happened we want something to compete with
+
+133:43 我们赢
+
+133:44 了因为他们过去在北京做活动做最好的我们赢了我们在这边我们从来不跟他们我们这边我们只看这个local的非华人的community在做什么在那边的话我们就是这个样子嗯但是我们也什么都没想但大家就感觉自己好像赢了嗯
+
+133:57 就是但是连
+
+133:59 个合影都没有就是就是团队合影从来不合影为什么要合影不合影
+
+134:04 拼的不是合影拼的是实力
+
+134:05 对对对不是不是就
+
+134:06 是
+
+134:07 就嫌麻烦就是嫌麻烦一合影完了大家都得
+
+134:11 然后那个窗户再往中间站我又不想往中间站然后就呵呵的嘛干实事儿的团队也不是我这个也经常不干事儿就是就是也经常不干
+
+134:20 事儿就是对对那就是比较自由度高的团
+
+134:24 队对就就因为我就我就不爱开会我就不爱make decision嗯我就不爱打开钉钉飞书select这样的工具我看见我就烦
+
+134:34 But I'm the CEO
+
+134:35 so you're saying so Stefan kunzo
+
+134:38 就是我我原来以为你是喜欢跟人聊或者喜欢科技那那我喜欢科技喜欢科技你
+
+134:44 看得出来我喜欢这些东西
+
+134:45 恰巧跟人那你为啥天天跟人聊天
+
+134:49 啊我不是天天跟人聊天OK我前两天发个朋友圈我说我讲我说我还是要主动社交嗯然后就是获取一些反馈和一些这种有意思的信号我这是强迫自己在做否则我不会去说这句话嗯我觉得是第一个就是你不跟人聊是不行的嗯就是
+
+135:08 嗯你不跟人聊其实很多事都是聊出来的
+
+135:12 我觉得尤其对
+
+135:13 P人
+
+135:14 来说必须得聊天的
+
+135:15 碰撞思
+
+135:16 想对碰撞思想然后P
+
+135:17 人老师学到了
+
+135:18 很多东西这两条你看聊完之后我不敢说我出门之后能量被补足了那是这那个是这人我能量不会被补足但我不会有很强的消耗感然后这个东西会内化让我其实觉得很多东西我能够弄出来就是我不会觉得出来之后我很精神那不是我然后但是我我我就不会觉得难受
+
+135:37 嗯然后这这是我第一个我我我要聊就是另外一个就是我觉得我我prompt的能力和我的推理能力都还可以
+
+135:46 很好嗯
+
+135:47 谢谢写的也好啊对我当时看skills那就导致我聊完之后其实我自己能够就我自己能够补充我自己的很多东西这个这我这个感受我觉得就还是就还是很好因为这个是这个是一个很屁这是一个很爱的人和和很屁的人会有的感受嗯嗯就是
+
+136:05 就你自己觉得你自己好像脑子转的就更快了然后很多东西你就想的更清楚了嗯啊尽管你可能你还是懒得用文章的方式去输出啊但是你就是但你就觉得你自己好像会变得更好就这个过程其实我还是挺享受嗯然后第三个就是我觉得就是我刚才说的就是惶恐焦虑又兴奋就需要认同感这个认同感很大程度上来自聊天而不是来自我这我这我这礼拜天就周三我就礼拜一先把自己关在家里干活太糟糕了感觉嗯
+
+136:34 我在北京的家还好起码有有个狗可以撸对然后我要把它接过来对然后这个我就说然后就是就是这个感觉就是其实也没有那么好
+
+136:44 嗯
+
+136:45 就是你出来的话就是这个阶段其实寻求认同感还是一个就是寻求这个这个认同不是说别人说托马斯你很棒不是这个意思就是认同感就是说哎我觉得你说的这个东西可能就有启发哎我觉得你你告诉我的这个事儿这个人我给你介绍一个人认识这个事儿可能
+
+137:04 你帮到了别人就别人会觉得很appreciate就是我这人就爱到了什么程度啊别人老跟我说托马斯你帮我把谁谁介绍一下那个人我很熟我说句他买我面子他也会说那你就给我connect一下嗯就这个过程特别费劲我做大活动我最难的事就是很多speaker只有我请尤其在国内嗯大佬们很多只有我请他才会来我们同事请他不来的
+
+137:30 我能拖到最后拉上面的就这个我说这微信怎么发这搁技工张鹏早发出去了
+
+137:36 那我跟人吃完饭了我们能跟你聊太兴奋了
+
+137:39 我就发不出去没看之前这个阶段咱咱都没见过咱微信都没加但是群里我都没加微信嘛我这就这样我
+
+137:46 这就是这样
+
+137:46 的他加了我都没我也没有加
+
+137:48 我一直
+
+137:49 就加了呀就我是我我我我都觉得就是没见之前加这事都特别的我我都觉得特别那个怎么着然后你没看之前都是他们帮着安排的吗这个安排的原因就是因为我自己这个
+
+138:00 特别痛苦我不是不能说很痛苦
+
+138:03 理解理解我觉得可
+
+138:04 以理解就是咱俩是爱人就是我不知道你有没有这种时候就是就是说
+
+138:10 You need that new room still called her new room
+
+138:15 他说speak for yourself是不是
+
+138:17 我见面聊天我更不擅长我其实微信聊天还我觉得还可以
+
+138:20 还稍微好一
+
+138:22 点对对
+
+138:24 对我觉得是文字聊天会
+
+138:25 我是我就是会觉得就是太痛苦
+
+138:28 但我觉得就是不管是不是爱人我觉得很重要的点是要做高质量的社交
+
+138:33 是的
+
+138:34 对是要有成果的社交对吧就不是无脑的就是哎就是我们随便聊一下天气很好你已经很棒
+
+138:40 我对于这个整个city value我最恨的一个事是什么
+
+138:44 加微信
+
+138:45 no视频不加微信国内也加微
+
+138:47 信啊LinkedIn没
+
+138:49 有LinkedIn LinkedIn okay
+
+138:51 天气
+
+138:52 I just I just hate small talks
+
+138:55 因为我就smart
+
+138:57 Yeah
+
+138:57 完了效率又很低你身边坐着一个人马上活动要开始了you have to talk something然后有有可能他就来转转有可能你们俩做的事特别的不搭嘎然后就能够特别匹配的概率就如果能达到一种效果就你不错就他说的事儿我没我没听过这个就已经很好了
+
+139:16 嗯
+
+139:17 我上次我是SF tech E进参加一个活动旁边坐一个嗯就是那种一开始东岸精英白人家庭过来的小孩嗯然后这个
+
+139:27 然后这个爹是搞法律的娘是搞什么的我忘了是搞金融的然后自己然后来这边要学创业然后就要做一些对国防有意义的事情一看就是这属于这种就是这个
+
+139:38 可
+
+139:39 能Boston或者DC的这种
+
+139:40 小孩嗯爱国
+
+139:42 对然后聊聊聊了一些东西然后聊一些对他他们对于agent的理解什么我就没听过
+
+139:48 嗯那就还
+
+139:48 可以我觉得就还可以但是你也基本能断定你跟他可能这辈子不太会有交际
+
+139:54 就是就是有也不是一定会不会有交集然后就是可能交集就没有那么多我觉得这种事对于我来说我就觉得就好累我如果要参加一个不是我自己办的活动我的唯一目的就是
+
+140:06 这活动
+
+140:06 有一两个人我觉得我就是要认识然后我认识的方式也不是说过去强加微信或者强加联系方式我肯定我会用等着举手问一个
+
+140:15 问题然后让他
+
+140:16 觉得非常impressive然后之后再通过选择这样的一种方式对对是或者是听完了之后看他是怎么说话的然后给他发个LinkedIn
+
+140:23 啊我我觉得你刚才聊的那个东西很怎么着我是怎么怎么看的然后这种办法觉得可能可能还可以就是否则的话我就觉得你说田园洞我在minimas活动上我是挺挺想认识他的我那次我我去minimas活动我就俩事儿第一个就是说我想跟音乐一打个招呼第二个就是说我跟原动不熟我想跟他混的熟一点但我看田园洞跟那么多人那儿small talk我就想了半天
+
+140:46 我说我还是回去看看他最近写的小说再给他说他写的科幻小说再给他熟一点小说啊田园栋是私下里田园栋是用中文写科幻小说的哦对他不光是个科学家他现在现在创业可能没时间了但是我的意思就是说
+
+140:58 希望彼此能recognize
+
+141:00 对希望彼此能在这个基础之上能
+
+141:02 够刷新你对老板的认知
+
+141:04 没有已经了解
+
+141:06 他还是比较了解
+
+141:07 我已经有认
+
+141:08 知国国内很多美女博客主然后就是对这边的很多男科学家是很有吸引力的嘛
+
+141:15 对然后我没有这样的吸引力我就只能在思想上进行的对齐一下
+
+141:20 发挥自身
+
+141:21 的我我我没有说女性不会怎么的意思啊但的确就是有些人他们是
+
+141:25 会去做这样的事情对
+
+141:26 对对我我没有任何别的意思sorry对
+
+141:28 没有我我觉得是我觉得
+
+141:30 是这样子我此时必须要传授一个小技巧一年前的我也不会sport talk
+
+141:36 但是有一天我突然就悟到了美国人那个small park的精神OK small park精神就是你无脑的重复他说的东西他说天气正好你说是啊天气真的很好或者然后他说就是哎我最近去干啥干啥你就说哎那这个干啥你啥体验然后就是就是我我没有用任何脑细胞情况下
+
+141:53 啊就是下面的捧下面的捧哏
+
+141:55 对但是我就是我觉得我我会我会就是我之前完全做不到small park也非常消耗能量就作为一个entp我觉得其实很多时候是很嗨的但
+
+142:04 是我有一天
+
+142:05 就突然觉得我就是
+
+142:06 要突破自己所以我就每天做Uber dog
+
+142:09 司机small
+
+142:10 talk哇
+
+142:11 你知道我为了我
+
+142:12 每天都练习我的small talk治疗
+
+142:14 法
+
+142:14 对到什么程度我现在就是可以无脑的一边工作一边跟司机small talk全程不断且我还在工作而且我没有用任何脑细胞我甚至不知道我们聊啥呢反正就是聊下去
+
+142:24 学到了学到了但
+
+142:25 是我觉得更重要的点是你怎么把small talk升级为对你自己有用
+
+142:29 的东西或者
+
+142:29 是你
+
+142:30 立马发现这个人可能就是跟你就是八竿子打不着别人那你怎么迅速结束
+
+142:35 这个small
+
+142:35 talk嗯
+
+142:36 嗯就是我觉得但是这也是
+
+142:37 个技巧在社交场合怎么体面的离开就say no是一个超级
+
+142:41 我很不会这对
+
+142:42 对对我也就聊着聊着
+
+142:43 传授我发
+
+142:44 现他就完全聊了一些我不感兴趣但他继
+
+142:47 续聊我这是我从其他yc发到这里学到的第一个点是你可以说哎我突然想到我得把你介绍给另外一个人你给他一介绍你不就可以抽成OK第二点是我哎我特别需要去上
+
+142:58 个厕所或者是哦我
+
+142:59 说我这边工作有
+
+143:00 就就有需求我就接个电话不是你
+
+143:02 看那句话我觉得原来有的人要把我接给另外一个人是因为
+
+143:06 他不想
+
+143:07 跟我聊
+
+143:07 了我也没
+
+143:08 想过对这
+
+143:09 就是我觉得最
+
+143:10 后一点就是OK就是我发现美国人就是他们有一些就是standard total考只要你也进行他们就会进行
+
+143:16 You sure and you show up well that's that's bye bye it was great talking to you
+
+143:22 然后马上就我就我就非常明确的给一个信号就是对就
+
+143:27 是我们结束了你还不结束说I to go but it was really great talking to you就OK了就是体面的离开其实很困难
+
+143:35 你你是ABC是吧
+
+143:37 我是北京长大的
+
+143:40 咱咱俩口音还是对得上的就说说中文
+
+143:43 的就我到上大学之前都一直在北京
+
+143:46 哦我只是最近
+
+143:47 中文说的比较少
+
+143:48 国
+
+143:49 际学校对吧
+
+143:50 对我说的是国
+
+143:51 际哦我也北京长的
+
+143:53 啊你哦你你北
+
+143:53 京人啊是但我我没啥口音大
+
+143:56 家我没听出来啊根
+
+143:57 本没有对上暗号啊对
+
+143:59 这是什么
+
+144:00 意思啊
+
+144:01 我听他是北京人了你你也听我是北京人对吧我爸妈我爸妈
+
+144:05 不是所以
+
+144:06 你爸妈不是啊
+
+144:07 你今天是南方人
+
+144:08 对就他我我我我就我这个
+
+144:12 ABC
+
+144:15 然后这个你不像福建我觉得可能浙江安徽江西那对就是就是中中间中间偏南的地方大
+
+144:22 家都隐
+
+144:23 藏了北京对
+
+144:24 隐藏了北京人
+
+144:25 有点隐藏了北京
+
+144:27 人这样子
+
+144:27 那我那我真的觉得就是每天都要迫使自己去跟别人进行一些small talk就是这种这个技能是你只要一段时间不做你会放弃我有
+
+144:36 时候突然
+
+144:37 发现自己不会small talk那我就赶紧上Uber
+
+144:40 That's good for me
+
+144:42 your voice thought that's good for you
+
+144:44 对就意思就是我是你反过来我是为了不small talk我现在天天take a waymo
+
+144:51 救命
+
+144:52 就是waymo现在到了南门之后我觉得就
+
+144:55 是福音了因
+
+144:56 为它不能走高速它有时候会稍微慢点我宁可要稍微慢点宁可慢我里边可放我的Spotify然后我也
+
+145:03 对真的很爱
+
+145:05 对
+
+145:06 确实
+
+145:06 那我有时候对我我我去开我去那种什么GTC conference就我觉得大部分的networking是非常没有意义的我就是直接带一个有有就是耳机OK就是我就是不想跟你说话有而且我有时候都没有耳机耳机没有放音乐那别人跟我说我就点一下我的耳机说你就on the call特别特别管用
+
+145:23 哎这是个好办
+
+145:24 法这是个好
+
+145:25 办法对就是这是生人勿近
+
+145:27 对生人勿近不是就是我就特别好奇什么GTC有的人在里边泡四天
+
+145:34 很难想象我也很
+
+145:35 你干嘛呀为什么要泡四
+
+145:37 天呢我听完老皇帝我就出来了后边两场我说杨哲林曲我挺想听的后来一想那屋几百个人而且我哈我问了好像杨哲林也没有也没有想跟我单独八万的意思那我就没有必要见你了对吧对就是我就等你有机会的时候北京或者哪儿见哪儿都可以对吧就是我就我我就觉得我那我就不去了我就我就很好奇为什么有人所有的场合就是老黄那场我们是要我们是要一点仪式感我还要在现场听了别的场
+
+146:04 你现场听跟跟别人有什么区别吗没有对吧就I don't know
+
+146:10 我其实觉得尊重自己的时间是一个非常好的
+
+146:13 就这个时间我
+
+146:14 看它放
+
+146:14 空都可以对用来放空和玩都可以
+
+146:17 是那要高质量的spend
+
+146:20 跟
+
+146:31 Oh really yeah
+
+146:35 就这样哇谢谢谢谢
+
+146:39 我还可以再聊务必再让我来一次
+
+146:41 我可以再来一次可以再
+
+146:43 来都没聊过
+
+146:45 活动邀请邀请
+
+146:48 Should talk about hollow speaker
+
+146:54 Exists
