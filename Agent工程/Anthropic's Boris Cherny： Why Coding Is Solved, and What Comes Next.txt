@@ -1,0 +1,306 @@
+[00:02 - 00:04] Speaker_1: OK, I'm excited to introduce our next speaker. 
+[00:04 - 00:06] Speaker_1: Show of hands, who here uses Cloud Code? 
+[00:07 - 00:10] Speaker_1: OK, show of hands, who here has Cloud Code Psychosis? 
+[00:10 - 00:12] Speaker_1: Come on guys, OK, it's OK.
+[00:13 - 00:17] Speaker_1: My my my team lovingly says I have Cloud Code Psychosis, which may or may not be true.
+[00:17 - 00:20] Speaker_1: We're delighted to have Boris Chany with us today.
+[00:20 - 00:23] Speaker_1: Boris is the creator, the father of Cloud Code.
+[00:24 - 00:31] Speaker_1: And in the process of doing that, has just had a front row seat to to reinventing the modern way of of software development.
+[00:32 - 00:36] Speaker_1: And we're we're really grateful to you, Boris, for taking the time to speak with us today. 
+[00:36 - 00:45] Speaker_1: We know that the entirety of software development kind of rest on your shoulders, so thank you for taking an hour of your time to be with us today, and interviewing Boris is Lauren Reader from our team. 
+[00:45 - 00:46] Speaker_2: Thank you.
+[00:52 - 00:53] Speaker_2: Getting our chairs.
+[00:54 - 00:57] Speaker_2: Um, you took my, you took my opening line. 
+[00:57 - 00:59] Speaker_2: As we ask who here uses quad code? 
+[00:59 - 01:00] Speaker_2: That's a lot of hands, that's awesome.
+[01:01 - 01:03] Speaker_2: Thank you for joining us, Boris. 
+[01:03 - 01:04] Speaker_2: It's very special to have you here.
+[01:04 - 01:15] Speaker_2: Um, as a room full of builders, I think you are changing building entirely, and so very curious to explore how you think about the future of software, coding. 
+[01:16 - 01:18] Speaker_2: and what we should spend all of our free time on. 
+[01:18 - 01:23] Speaker_2: But I'll give him a tiny bit more background on you so that everyone has a little bit more context. 
+[01:23 - 01:27] Speaker_2: So beyond creating cloud code, Boris is very much an engineer's engineer. 
+[01:27 - 01:34] Speaker_2: You were writing a lot of code through your whole career, writing textbooks about code, including programming in TypeScript. 
+[01:35 - 01:44] Speaker_2: And I think last time we chatted, you hadn't written a single line of code in the last year, or at least so far in 2026, which is quite the change. 
+[01:44 - 01:51] Speaker_2: There's also a a little known thing back in middle school, I wrote a guide about writing Basic for TI 83 Plus calculators.
+[01:51 - 01:52] Speaker_3: 
+[01:52 - 01:55] Speaker_2: And I I just I I search it, it's actually still on the internet. 
+[01:55 - 01:57] Speaker_2: It's extremely embarrassing, so please don't search it.
+[01:58 - 02:03] Speaker_2: So we're gonna do, I'm gonna start with a few questions here. 
+[02:03 - 02:11] Speaker_2: Maybe we'll start with a little bit of the history of Cloud Code, how you started it, and then we're gonna have a lot of audience Q and A for this one, and so start thinking about your questions in the back of your head. 
+[02:12 - 02:14] Speaker_2: and would love to turn it over to you all soon.
+[02:14 - 02:20] Speaker_4: Yeah, and also real quick, so for people that use Cloud Code, do people use the CLI mostly? 
+[02:20 - 02:22] Speaker_4: Like, okay, majority CLI? 
+[02:23 - 02:24] Speaker_4: That's why, majority desktop? 
+[02:26 - 02:30] Speaker_4: Okay, majority VS Code or Eclipse IDE? 
+[02:31 - 02:31] Speaker_4: that's actually not a lot. 
+[02:32 - 02:32] Speaker_4: ok, other? 
+[02:34 - 02:36] Speaker_4: I'm like ios mostly these days.
+[02:36 - 02:36] Speaker_5: yeah.
+[02:37 - 02:38] Speaker_4: ok, cool. 
+[02:39 - 02:43] Speaker_4: yeah, so I started quad code kind of accidentally in a in a lot of ways. 
+[02:44 - 02:50] Speaker_4: I joined this team back in late 2024, it was sort of this incubator within anthropic called anthropic labs. 
+[02:51 - 02:53] Speaker_4: and the team kind of served its purpose. 
+[02:53 - 02:57] Speaker_4: we created quad code, mcp and the desktop app. 
+[02:57 - 02:58] Speaker_4: it was a team, it was just a few of us. 
+[02:59 - 03:00] Speaker_4: so very much like innovation team. 
+[03:01 - 03:04] Speaker_4: we built the thing that we wanted to build, we disbanded the team. 
+[03:04 - 03:13] Speaker_4: now the team's actually back together for round two, Mike Krieger, who's the you know like the chief product officer at at anthropic and used to be one of the founders at Instagram, so he's waiting that right now. 
+[03:15 - 03:26] Speaker_4: So, the kind of the the the the reason that I started to work on coding is we felt like there was this product overhang, and I I I'm guessing people here use that word a lot. 
+[03:26 - 03:30] Speaker_4: But we definitely use this word a lot in kind of within the lab. 
+[03:31 - 03:41] Speaker_4: There's this idea that the model can do all the stuff that no product has yet captured, and in late 2024 when we were looking at coding, the way that we did coding, the state of the art at the time was type ahead. 
+[03:41 - 03:48] Speaker_4: Is you open your idea and you press tab, and you can like complete like one line at a time, and that was a thing that Sonnet 3.5 enabled for the first time. 
+[03:49 - 03:54] Speaker_4: But the feeling was we could actually go a lot further than that, and the model was almost ready for the next big step. 
+[03:55 - 03:57] Speaker_4: so, we don't have to do type ahead anymore. 
+[03:57 - 03:59] Speaker_4: we can just have the agent write all of the code. 
+[04:00 - 04:05] Speaker_4: and so, i built it, and it just really didn't work for the first six months. 
+[04:06 - 04:08] Speaker_4: it was like not very good, it was barely usable. 
+[04:08 - 04:12] Speaker_4: i wrote it from, i used it for maybe 10 percent of my code, or something like that. 
+[04:12 - 04:15] Speaker_4: and even after we released quad code initially, it was not a hit. 
+[04:16 - 04:20] Speaker_4: there's a lot of people that used it, but it did not have this exponential growth that it has today. 
+[04:21 - 04:25] Speaker_4: that started with Opus 4 in May, and I re-, I remember that very clearly. 
+[04:25 - 04:29] Speaker_4: That's like when the exponential growth started, and then it kind of inflected with every model release. 
+[04:29 - 04:33] Speaker_4: Like, it started with Opus 4, then 4.5, then 4.6, now 4.7. 
+[04:33 - 04:34] Speaker_4: It just kinda keeps reflecting. 
+[04:35 - 04:43] Speaker_4: But essentially, we were trying to build this thing that was like pre-PMF, and we knew that it wouldn't have PMF for six months, because we were building for the next model. 
+[04:43 - 04:45] Speaker_4: And that was the idea the pretty much the whole time. 
+[04:46 - 04:50] Speaker_4: And you know, for anthropic in general, we've always just been very focused. 
+[04:50 - 04:53] Speaker_4: We've always cared about business and enterprise and safety and coding. 
+[04:54 - 04:56] Speaker_4: That's just always been kind of the way that we wanted to build. 
+[04:57 - 05:00] Speaker_4: And so at some point, we kind of knew that we wanted to build a product, we didn't know exactly one. 
+[05:00 - 05:03] Speaker_4: So this kind of ended up being the the product that. 
+[05:04 - 05:06] Speaker_2: It's an incredible story, especially that it was an accident.
+[05:08 - 05:11] Speaker_2: So you've said on the record that you think coding is solved.
+[05:12 - 05:19] Speaker_2: If this is one of the three best anthropic, can you tell us more about what you mean by that, and what might still not be solved or what secondary problems might come?
+[05:20 - 05:21] Speaker_4: All right, I can ask another question for them. 
+[05:22 - 05:24] Speaker_4: Who writes a hundred percent of their code by hand? 
+[05:27 - 05:31] Speaker_4: Who writes a hundred percent of their code using an agent, like quad code? 
+[05:32 - 05:33] Speaker_4: OK, who's like somewhere in between? 
+[05:35 - 05:36] Speaker_4: OK, so like 50 percent solved.
+[05:38 - 05:41] Speaker_3: 
+[05:41 - 05:43] Speaker_4: I mean, for me, for me, it's like, for me, it's 100 percent. 
+[05:43 - 05:47] Speaker_4: Like the the cloud code code base, you know, it leaked, so, you know, people know. 
+[05:47 - 05:47] Speaker_4: 
+[05:47 - 05:53] Speaker_4: It's pretty simple, it's just like TypeScript, and it's just React, like there there's no big secret, there's there's nothing really complicated. 
+[05:53 - 05:57] Speaker_4: The the reason we picked TypeScript and React is it's very on distribution for the model. 
+[05:57 - 06:04] Speaker_4: So when we started, you know, building the code base, the model was not as intelligent as it is today, so the language and the framework mattered a lot. 
+[06:04 - 06:08] Speaker_4: Now it is, you know, it can write whatever, and it can pick up new languages, new frameworks it hasn't seen. 
+[06:08 - 06:11] Speaker_4: But back then, you wanted to do something pretty on distribution. 
+[06:12 - 06:16] Speaker_4: Because of that, I think fairly early, we got to the point where the model just wrote 100 percent of the code. 
+[06:17 - 06:21] Speaker_4: And for us, this happens sometimes in October, November last year. 
+[06:21 - 06:24] Speaker_4: And so for me today, you know like the model rates a hundred percent my code. 
+[06:25 - 06:28] Speaker_4: I write somewhere, you know usually a few dozen PRs every day. 
+[06:28 - 06:31] Speaker_4: There was a day last week I did like 150 PRs in a day. 
+[06:31 - 06:34] Speaker_4: That was like that was a record, I was just kind of kind of pushed to see how far I can get it. 
+[06:35 - 06:37] Speaker_4: But yeah, it's like for me, for me it's just solved. 
+[06:37 - 06:38] Speaker_4: But this is not the case everywhere. 
+[06:38 - 06:43] Speaker_4: There's very big complicated code bases, there's kind of weird languages, the model's not good at yet. 
+[06:44 - 06:46] Speaker_4: And you know, as everyone here knows, it's it's getting there. 
+[06:46 - 06:48] Speaker_4: Usually the answer is just wait for the next model. 
+[06:50 - 06:52] Speaker_2: Can you actually tell us about your personal setup? 
+[06:52 - 06:54] Speaker_2: And you walked us through it the other day, it is pretty wild.
+[06:55 - 07:05] Speaker_4: Yeah, so I shared my personal setup like 6 months ago or something on on Twitter, and it it's funny, I actually I shared it, I didn't realize that it would be surprising for anyone. 
+[07:06 - 07:07] Speaker_4: That was just like the way that I coded.
+[07:07 - 07:09] Speaker_2: And it's changed since then?
+[07:09 - 07:10] Speaker_4: It's changed. 
+[07:10 - 07:14] Speaker_4: And so now actually most of my work I do from my phone. 
+[07:14 - 07:27] Speaker_4: And so, I don't know if like you guys won't be able to see this, but I have um, so I have like the Cloud app, and if you open the Cloud app on the left hand side, there's this little code tab. 
+[07:28 - 07:29] Speaker_4: And I just have a bunch of sessions going. 
+[07:31 - 07:33] Speaker_4: You you you probably can't see it.
+[07:33 - 07:33] Speaker_2: How many sessions?
+[07:34 - 07:37] Speaker_4: Uh, usually I have like maybe like 5 to 10 sessions. 
+[07:37 - 07:42] Speaker_4: And then the sessions usually we have a bunch of agents, so I think currently probably like a few hundred agents going. 
+[07:43 - 07:46] Speaker_4: Usually every night I have like a few thousand that are doing kind of deeper work. 
+[07:47 - 07:48] Speaker_4: There's a few ways to manage it. 
+[07:49 - 07:52] Speaker_4: One is that you ask Claude to use a bunch of subagents to do work. 
+[07:52 - 07:57] Speaker_4: Actually the the thing that I've been finding myself using more and more is a loop. 
+[07:57 - 08:00] Speaker_4: So this is a slash loop, and it's just like the coolest thing. 
+[08:00 - 08:01] Speaker_4: It's like the simplest thing that works. 
+[08:01 - 08:08] Speaker_4: All it is is you have Claude use cron to schedule a job for some point in the future, and it's a repeat job. 
+[08:09 - 08:14] Speaker_4: And it can run every every minute, every five minutes, every day, kind of however often you wanna schedule it. 
+[08:15 - 08:18] Speaker_4: And at this point, I have like dozens of loops that are running for stuff. 
+[08:18 - 08:22] Speaker_4: So I have one that's babysitting my PRs, so like fixing CI, auto-rebasing. 
+[08:23 - 08:27] Speaker_4: I have another one that keeps CI healthy, so like if there's like a flaky tester or whatever, it'll it'll go and fix it. 
+[08:28 - 08:33] Speaker_4: I have another one that grabs feedback from Twitter and kind of clusters it for me every thirty minutes. 
+[08:34 - 08:36] Speaker_4: So I just have a bunch of these loops running at any time. 
+[08:37 - 08:39] Speaker_4: I sort of feel like loops are the future at this point. 
+[08:39 - 08:41] Speaker_4: If you haven't experimented with it, highly highly recommend it. 
+[08:42 - 08:43] Speaker_4: And we also just launched Routines. 
+[08:44 - 08:48] Speaker_4: which is the same thing, but kind of on the server, so even if you close your laptop, it keeps going.
+[08:50 - 08:51] Speaker_2: So that's your personal setup. 
+[08:51 - 08:54] Speaker_2: Tell us about what you think teams will look like in the future. 
+[08:54 - 09:03] Speaker_2: How do you extrapolate from all the work you're doing to keep everyone on the team moving forward, understanding the context, or do you think we need to let go of a lot more agents to make it work?
+[09:03 - 09:11] Speaker_4: Um, I think so, I you know, it's so hard to make predictions, but um, I'm here to make predictions, so I'll try to make some. 
+[09:12 - 09:18] Speaker_4: I I I feel like the way that things are going is generally There's gonna be a lot more generalists than there are today. 
+[09:19 - 09:24] Speaker_4: And today, when we talk about generalists, I think largely we're talking about people that are still engineers. 
+[09:24 - 09:33] Speaker_4: So they're still writing code, but maybe they're kind of product engineers, so maybe when we say generalists, it's like a, you know, they do iOS and web and server, for example, that's like a generalist in engineering. 
+[09:35 - 09:39] Speaker_4: But I think the thing that we're gonna start to see a lot more of is generalists that are cross disciplinary. 
+[09:40 - 09:47] Speaker_4: So this is engineers that are really good at product engineering, but also really great at design, or really great at product and data science and engineering.
+[09:48 - 09:52] Speaker_4: I don't know, is it is something that we're starting to see on our team. 
+[09:52 - 09:58] Speaker_4: So actually like a lot of people on the cloud code team are generalists across disciplines. 
+[09:58 - 10:10] Speaker_4: Everyone on our team codes, so like our engineering manager, our product manager, our designers, our data scientists, our finance guy, our user researcher, every single person on our team writes code. 
+[10:10 - 10:14] Speaker_4: And so, you know like, they're specialist in something, but now also everyone's just coding. 
+[10:15 - 10:22] Speaker_4: And you know, I'm seeing some nods, but I bet also it's actually not that surprising to people in this room, cause I bet you're seeing the same things.
+[10:23 - 10:26] Speaker_4: I have one more thread of questions, and then we'll open it up to the audience. 
+[10:26 - 10:28] Speaker_2: So, we talked a bit about what's changing with coding. 
+[10:29 - 10:33] Speaker_2: I'm curious about what you see changing in the world of software or software products. 
+[10:33 - 10:41] Speaker_2: I think as we see AI making writing code 10 or 100x cheaper, what happens to the value of the products that are produced the software? 
+[10:42 - 10:43] Speaker_2: Do we have a sasquapalypse on our hands? 
+[10:44 - 10:45] Speaker_2: How do you think this plays out? 
+[10:45 - 10:47] Speaker_2: And again, you're gonna have to make another prediction.
+[10:47 - 10:50] Speaker_4: The sasquapalypse question is my favorite question then. 
+[10:52 - 10:59] Speaker_4: I think there's two things that are gonna happen, and I I don't think either of them is the thing that people have been talking about. 
+[11:01 - 11:05] Speaker_4: I think one is, is is anyone here an acquired listener? 
+[11:05 - 11:07] Speaker_4: Like the acquired podcast. 
+[11:07 - 11:09] Speaker_4: Yeah, it's like the best podcast. 
+[11:10 - 11:18] Speaker_4: I actually I I got to do unplugged with them the other week, and I I just, I I feel like I got to like meet my heroes, cause they're they're just like the host are the best. 
+[11:19 - 11:27] Speaker_4: So they have this idea of uh seven powers, and and this is uh this is like Hamilton, he kind of wrote he wrote a book about this, and this is kind of the seven modes in business. 
+[11:27 - 11:32] Speaker_4: And I think what's gonna happen is because of AI, some of these modes are gonna get more important, and some are gonna get less important. 
+[11:33 - 11:41] Speaker_4: And so, like, for example, one that gets less important is switching costs, because you can just use the model, and you can kind of port from one thing to a different thing. 
+[11:41 - 11:55] Speaker_4: Another one that gets less important is process power, because for companies whose mode is like workflows and process and things like this, Quatt is getting really good at figuring out process, and especially with 4.7, it can just hill climb anything. 
+[11:55 - 11:59] Speaker_4: So if you give it a target, and you tell it to iterate until it's done, it will just do it. 
+[11:59 - 12:00] Speaker_4: I think this is the first model like that. 
+[12:02 - 12:10] Speaker_4: So I think these are gonna get less important, but I think the previous modes actually still matter, so this is like network effects, scale economies, cornered resources, things like that. 
+[12:10 - 12:12] Speaker_4: These are not really changing with AI. 
+[12:13 - 12:26] Speaker_4: I think the second thing is if you look at the number of startups today, or like maybe in the next, you know, the past ten years, I think the number of startups in the next ten years that are just gonna like disrupt everything is gonna increase like ten x. Because right now you can be a tiny startup.
+[12:26 - 12:35] Speaker_4:  you could build a thing that's as valuable as a large company, and you can actually compete head to head, because the large company has to evolve their business process, they have to evolve the way they work. 
+[12:36 - 12:43] Speaker_4: they have to retrain everyone to use technology, they're gonna face a lot of internal resistance to that, but you know, no one here has that problem. 
+[12:43 - 12:48] Speaker_4: If you're starting fresh, then you can kind of build with AI, natively from the ground up. 
+[12:49 - 12:54] Speaker_4: so, i don't know, I I think it's the best time to build, it's the best time to be a startup, it's there's so much disruption coming.
+[12:55 - 12:56] Speaker_2: so there is hope for us after all. 
+[12:56 - 12:57] Speaker_2: Thank you Morris. 
+[12:57 - 13:03] Speaker_2: I would love to open up to audience questions, if anyone has anything they would like to ask, Dan?
+[13:08 - 13:09] Speaker_6: Hi, yeah, I'm curious. 
+[13:09 - 13:19] Speaker_6: You said that you built six months before there is product market fit, but now, given that the models are good enough, how much do you attribute the success of cloud code to? 
+[13:19 - 13:23] Speaker_6: the model versus like product decisions and the the like feel the product.
+[13:25 - 13:26] Speaker_4: oh, i think it's probably a mix. 
+[13:27 - 13:28] Speaker_4: yeah, i think it's a mix. 
+[13:28 - 13:31] Speaker_4: i think i think if you asked me a year ago, the ratio was maybe something like fifty fifty. 
+[13:32 - 13:35] Speaker_4: maybe i don't know, if you asked me six months ago, the mix would be fifty fifty.
+[13:35 - 13:36] Speaker_6: what about in two years?
+[13:37 - 13:39] Speaker_4: oh, two years, i don't know dude, we planning like we planned one week out.
+[13:39 - 13:41] Speaker_6: six months, sometime in the future.
+[13:41 - 13:41] Speaker_4: hahaha. 
+[13:42 - 13:54] Speaker_4: and by the way, i think the reason it was fifty fifty is, you know, i i i like, i i did WeChat back in the day, I was like the first hire at a WeChat company, and like I did a bunch of startups. And in startups like the thing that. 
+[13:54 - 13:58] Speaker_4: they drill into you, and especially in wise, he over and over is build something people love. 
+[13:59 - 14:05] Speaker_4: And so it it doesn't matter what the product is, it doesn't matter like the model and all the stuff, you still in the end have to build a thing that people love. 
+[14:05 - 14:13] Speaker_4: And I think that's that's why the product matters is we we pay so much attention to the little details, so that as you use it all day, it's a really great experience. 
+[14:14 - 14:17] Speaker_4: I think as the model's gotten better, the harness kind of gets less important. 
+[14:17 - 14:22] Speaker_4: And I I think like a a thing that we're thinking right now is like how do we evolve the harness? 
+[14:22 - 14:24] Speaker_4: So like how do we make loops more of a first class thing? 
+[14:24 - 14:27] Speaker_4: How do we make it easier to run a lot of agents? 
+[14:27 - 14:29] Speaker_4: You know beside, you know like sub agents is one idea. 
+[14:30 - 14:31] Speaker_4: There's a bunch more stuff that we're cooking. 
+[14:32 - 14:35] Speaker_4: But I think in a year, the model will be much better aligned. 
+[14:35 - 14:47] Speaker_4: And so all the safety mechanisms that we have today around prompt injection and kind of static verification of commands, and permission modes, human in the loop, all this kind of stuff is just gonna be less important. 
+[14:47 - 14:48] Speaker_4: cause the model will just do the right thing. 
+[14:49 - 14:51] Speaker_4: So yeah, that's that's my prediction.
+[14:52 - 14:55] Speaker_2: Thank you. 
+[14:55 - 14:56] Speaker_2: You wanna toss the box, Dan?
+[14:56 - 15:00] Speaker_7: Great. 
+[15:01 - 15:14] Speaker_7: To zoom to zoom out a little bit from software, I think a cloud code did a cultural change a few months ago where it's democratized like Building software, you can see a shop owners building their own software for themselves. 
+[15:14 - 15:19] Speaker_7: or even programming microcontrollers to control the light when someone opens the door. 
+[15:19 - 15:26] Speaker_7: Do you see in the future building software becoming a skill like I know a Microsoft Office. 
+[15:26 - 15:30] Speaker_7: So it's a thing that every everybody can do, not just people in the tech industry.
+[15:31 - 15:32] Speaker_4: Oh my god, yes, yes, yes. 
+[15:32 - 15:34] Speaker_4: I think I think it's gonna be even more than that. 
+[15:34 - 15:38] Speaker_4: I think it's gonna be, I don't know, it's gonna be a skill like yeah, like I know how to send a text message. 
+[15:40 - 15:45] Speaker_4: I I I think you know like I I read my my two genres are essentially sci-fi and tech history. 
+[15:45 - 15:47] Speaker_4: This is what I read a lot of. 
+[15:47 - 15:52] Speaker_4: And I I think in tech history there's one thing which I think to me is the clearest parallel for what's happening right now. 
+[15:53 - 15:57] Speaker_4: And this is in the fourteen hundreds, the printing press in Europe. 
+[15:57 - 16:03] Speaker_4: And what what happened was before the printing press, essentially 10 percent of the European population was literate. 
+[16:03 - 16:04] Speaker_4: They knew how to read and write. 
+[16:04 - 16:08] Speaker_4: They were often employed by like kings and lords that were not literate. 
+[16:09 - 16:14] Speaker_4: And their job was to you know, their their job was to read and write, and this is not something that everyone knew how to do. 
+[16:14 - 16:24] Speaker_4: The printing press was invented, then there were two more presses, and in the fifty years after the first printing press, there was more literature published in Europe than in the thousand years before. 
+[16:25 - 16:28] Speaker_4: And over the same period, the cost of literature, the cost of a book went down like a hundred x. 
+[16:29 - 16:37] Speaker_4: And then you know, it took a couple hundred years, cause you know, learning to read and write is hard, you need education systems and government, and everyone can't be working on farms and so on. 
+[16:38 - 16:41] Speaker_4: but over the next few hundred years, literacy globally went up to like 70 percent. 
+[16:41 - 16:46] Speaker_4: and so, you know, now we can all read and write, and you don't need a degree in reading and writing to know how to read and write. 
+[16:47 - 16:50] Speaker_4: although still there are professional writers, and that is the thing that you can do. 
+[16:50 - 16:59] Speaker_4: so, I I think the thing that's about to happen, and it's gonna be much faster than 50 years, is software will be a thing that is fully democratized, that anyone can do. 
+[16:59 - 17:02] Speaker_4: and you know there's a lot of corollaries to this. 
+[17:02 - 17:05] Speaker_4: so for example, let's say you're writing accounting software. 
+[17:06 - 17:16] Speaker_4: The best person to write accounting software, I think maybe even today, is not an engineer, it's a really good accountant, because they know the domain really well, and coding is the easy part, it's knowing the domain. 
+[17:16 - 17:20] Speaker_4: that's the hard part, and I I think this is just obviously the the future.
+[17:22 - 17:29] Speaker_8: So, one of the things Greg said was that you guys are living in the future a little bit, cause you get to have access to the models and the agents. 
+[17:29 - 17:31] Speaker_8: Cloak codes is an internal tool before you released it. 
+[17:32 - 17:36] Speaker_8: Is the gap between where you guys are in engineering and the rest of the world? 
+[17:36 - 17:42] Speaker_8: Is that a month, is it three months, is it six months, and is that is that gap getting bigger or smaller over time? 
+[17:44 - 17:46] Speaker_4: Yeah, so so internally we use the same models everyone else does. 
+[17:47 - 17:52] Speaker_4: For us, the doc footing is really really important, so we use the thing that everyone else here does. 
+[17:52 - 17:59] Speaker_4: You know, we use like a little bit of mythos to try it, and then we use a lot of Opus 4.7 to doc foot it and to rate most of our code. 
+[17:59 - 18:02] Speaker_4: I think on the model side, there isn't really a gap. 
+[18:02 - 18:09] Speaker_4: You know, it's like it's pretty much mythos, and you know that will become some version of some descendant of that will become available at some point to everyone. 
+[18:10 - 18:16] Speaker_4: I think on the product side, there's probably a far larger gap, and that's just related to us changing all over our processes. 
+[18:16 - 18:19] Speaker_4: Like if you talk to people at Anthropic, we use q for literally everything. 
+[18:20 - 18:30] Speaker_4: And our clouds are talking all day, like, as as I'm coding, as my clouds are coding in a loop, they will communicate over slack to talk to other people's clouds that are also running in a loop to kind of figure out unknowns. 
+[18:31 - 18:33] Speaker_4: We have no more manually written code anywhere at the company. 
+[18:33 - 18:37] Speaker_4: All of the sequel is written by uh by models, everything is just built by the models. 
+[18:38 - 18:47] Speaker_4: So I I I think actually the place that we're ahead is not the technology, cause the same technology available to us is available to everyone here, because fundamentally we are building a platform. 
+[18:47 - 18:53] Speaker_4: And so for us it's really important that developers can use the same thing that we're using, and that we we dog food everything that we put out there. 
+[18:54 - 18:58] Speaker_4: but i think there's actually a far bigger weed in kind of the organizational structure and organizational process. 
+[18:59 - 19:06] Speaker_4: and this is a place where you know, hopefully we can talk about it in places like this, and everyone can kind of learn from it, and and also evolve.
+[19:06 - 19:10] Speaker_2: yeah, and i think that's one of the advantages startups have, it's so much easier to start there. 
+[19:10 - 19:10] Speaker_2: Jaron?
+[19:11 - 19:21] Speaker_9: Yeah, last time we talked, I think I think you'd mentioned, we talked a little bit about multi-agent, and it was very encoded at the time at a prior Square event, and you'd mentioned that there were some things going down the pipeline. 
+[19:21 - 19:23] Speaker_9: and something you're talking, you're thinking about. 
+[19:23 - 19:26] Speaker_9: Now obviously there's slash batch, there's slash loop, there's sub teams, there's teams. 
+[19:27 - 19:37] Speaker_9: Can you speak some to either at the model level, and at the harness level, how you're injecting priors, and harness level, how the objective functions changing the model level, to kind of make this experience around delegating work. 
+[19:37 - 19:46] Speaker_9: spinning up agents better, cause so much of the work is paralyzable, you can have do so many things so much faster, and I feel like I have to overlay my own intuition for when to paralyz things. 
+[19:46 - 19:49] Speaker_9: rather than the model kind of understanding that you can spin up tens of agents for something.
+[19:50 - 19:53] Speaker_4: Yeah, I mean on on the product side, it really just comes down to prompting. 
+[19:53 - 19:58] Speaker_4: That's that's how it is, and so you know we we tweak prompts to kind of help the model do stuff in parallel more. 
+[19:59 - 20:02] Speaker_4: but also honestly, as the model gets better, it just naturally does this. 
+[20:02 - 20:08] Speaker_4: and so something like a loop, i found actually 4.7 it just starts doing, which is really cool. 
+[20:08 - 20:17] Speaker_4: it's like it it does something like you know, I'll I'll I'll tell it go pull this data query, and it's like hey, I notice that the data is changing over time, I'll start a loop. 
+[20:17 - 20:19] Speaker_4: and I'll give you a report every 30 minutes. 
+[20:19 - 20:21] Speaker_4: and I'm like great, can you send it to me over Spark? 
+[20:21 - 20:23] Speaker_4: and then it uses the Spark MCP to do that. 
+[20:23 - 20:31] Speaker_4: so so I think actually over time, it's not on users to figure out how to hold the tools better, and if that's the case, it's actually a product design problem, and like I'm not doing a good job. 
+[20:32 - 20:37] Speaker_4: It's really on the model to do this stuff better, and on us kind of prompting it so it naturally does this.
+[20:41 - 20:50] Speaker_5: So right now it seems like a lot of us use like Claude or Codex or these tools in the cloud to do a lot of our computing. 
+[20:50 - 21:06] Speaker_5: But then there are some very vocal advocates of have your AI be local, and I could imagine over time as open way models and other things catch up, that this could be more of a possibility for people get really high quality coding assistance. So I'm curious your vision of Say over. 
+[21:06 - 21:09] Speaker_5: the next like years or something like that. 
+[21:09 - 21:15] Speaker_5: Do you see the trajectory of everyone still really relying on the like cloud centralized compute? 
+[21:15 - 21:22] Speaker_5: Or is there a pivot to, or we all just have our local agents that we can rely on, and they don't get throttled in other benefits?
+[21:23 - 21:24] Speaker_4: Yeah, I think it. 
+[21:25 - 21:28] Speaker_4: I don't know, there there's maybe a few ways to answer that. 
+[21:28 - 21:35] Speaker_4: I think maybe like kind of the the most fundamental way to answer that is it doesn't matter, cause cause I think now we're getting to the point where the models just able to figure it out. 
+[21:36 - 21:41] Speaker_4: So I think like by a couple years, some of the models just gonna be doing all the code, it's gonna be starting the agents, it's gonna be building the environments. 
+[21:42 - 21:46] Speaker_4: And so like if it decides like actually I'll use like local models to do this, then you know that's what it'll do. 
+[21:46 - 21:49] Speaker_4: These I I don't think these will be decisions that we are making as engineers anymore.
+[21:49 - 21:53] Speaker_2: We have time for a couple more questions, so I can toss this out. 
+[21:54 - 21:55] Speaker_2: Jamie.
+[21:57 - 21:58] Speaker_10: Mister.
+[21:58 - 21:58] Speaker_2: Thank you.
+[21:59 - 22:06] Speaker_10: I feels like one of the great uh decisions with cloud code was making use of the fact that a lot of developers' tools and workflows are local. 
+[22:07 - 22:12] Speaker_10: But um that isn't necessarily always the case for sort of general knowledge work with you know cloud tools. 
+[22:12 - 22:15] Speaker_10: I'm curious how you're thinking about this with coworker. 
+[22:15 - 22:21] Speaker_10: of how do you give coworker enough access to the tools that we use to be powerful the same way that cloud code is for developers.
+[22:22 - 22:24] Speaker_4: Yeah, it's that's a really great question. 
+[22:24 - 22:30] Speaker_4: I know I know when I was a when I was at a big company we took like 5 years moving all the environments to remote. 
+[22:30 - 22:33] Speaker_4: It's just like so much work, especially at a big scale. 
+[22:33 - 22:38] Speaker_4: But for knowledge work largely it's there already with like salesforce and docs and things like that. 
+[22:39 - 22:42] Speaker_4: For us it's always just the simplest answer, it's just MCP. 
+[22:43 - 22:48] Speaker_4: So the same MCP connector that you have in quadia, you hook up like you know salesforce, you hook up Google docs, Google calendar.
+[22:49 - 22:52] Speaker_4: And then coworker can use that, quad cli can use it, quad code everywhere can use it.
+[22:55 - 23:01] Speaker_10: For the for the systems that don't have mcp's, like, do you think that's where computer use is gonna be a big opportunity?
+[23:01 - 23:04] Speaker_4: Yeah, I think computer use is kind of a catch-all. 
+[23:04 - 23:11] Speaker_4: So, I think currently for as far as I know, I think anthropic is like pretty far ahead on computer use, and so like if you use it through coworker, it's quite good. 
+[23:12 - 23:16] Speaker_4: So, it's able to use pretty much any piece of software that you have on your computer. 
+[23:16 - 23:19] Speaker_4: It's very slow, but it does it quite well now, especially with 4.7. 
+[23:20 - 23:24] Speaker_4: Yeah, but I I think otherwise like mcp's is kind of the answer. 
+[23:24 - 23:28] Speaker_4: It's and you know all this stuff just doesn't matter that much, it could be mcp's, cli's, apis. 
+[23:28 - 23:33] Speaker_4: Just some sort of programmatic access, cause the the model doesn't care, is to mo- to the model is just tokens.
+[23:33 - 23:36] Speaker_2: All right, we have time for one more question. 
+[23:38 - 23:43] Speaker_2: Ryan, Sean, you wanna pa- toss the, thank you.
+[23:44 - 23:54] Speaker_11: Um, you've kind of alluded to this, but if like some time ago you saw the probability, the product overhang, and thought to build a product that would then become more interesting once models got better. 
+[23:55 - 24:02] Speaker_11: Could you just talk it, even in vague terms about the shape of a product you built today, that you think could becomes a much more interesting as models get better in six months to a year?
+[24:02 - 24:05] Speaker_4: Yeah, cloud design, I I think is a really good example. 
+[24:05 - 24:08] Speaker_4: It's uh, it's pretty good today, it's gonna get a lot better.
+[24:09 - 24:14] Speaker_4: There's also a few things that we're cooking up for quad code, that are gonna be landing over the coming weeks, so you'll see those. 
+[24:15 - 24:21] Speaker_4: And then I think I think loop and batch and things like this around like massively paralyzing agents, that's gonna get better. 
+[24:22 - 24:24] Speaker_4: I think computer use is another good one.
+[24:24 - 24:27] Speaker_2: Alright, Boris, thank you so much for joining us. 
+[24:28 - 24:33] Speaker_2: I think we'll be here for a little longer if anyone has questions.Thanks guys.
